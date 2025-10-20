@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE estudiantes SYSTEM "alumnos2.dtd">
+<estudiantes>
+    <alumno edad="21" exp="11111" nom="carlitos">
+        <edad>21</edad>
+    </alumno>
+    <alumno edad="28" exp="22222" nom="menganito">
+        <edad>28</edad>
+    </alumno>
+    <alumno edad="123" exp="33333" nom="fermin">
+        <edad>123</edad>
+    </alumno>
+    <alumno edad="23" exp="44444" nom="julito">
+        <edad>23</edad>
+    </alumno>
+</estudiantes>

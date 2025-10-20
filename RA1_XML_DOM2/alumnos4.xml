@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumnos4.xsd">
+  <alumno edad="21" exp="11111" nombre="carlitos">
+        <edad>21</edad>
+    </alumno>
+    <alumno edad="28" exp="22222" nombre="menganito">
+        <edad>28</edad>
+    </alumno>
+    <alumno edad="123" exp="33333" nombre="fermin">
+        <edad>123</edad>
+    </alumno>
+    <alumno edad="23" exp="44444" nombre="julito">
+        <edad>23</edad>
+    </alumno>
+</estudiantes>
