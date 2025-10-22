@@ -1,0 +1,27 @@
+{
+	"centro": "IES Ciudad Escolar",
+	"curso": "2024-2025",
+	"codigo": 27015,
+	"alumnos": [
+		{
+			"expediente": 1111,
+			"nombre": "carlitos",
+			"edad": 21
+		},
+		{
+			"expediente": 2222,
+			"nombre": "menganito",
+			"edad": 18
+		},
+		{
+			"expediente": 3333,
+			"nombre": "fermin",
+			"edad": 24
+		},
+		{
+			"expediente": 4444,
+			"nombre": "julito",
+			"edad": 23
+		}
+	]
+}
