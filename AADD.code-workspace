@@ -1,0 +1,68 @@
+{
+	"folders": [
+		{
+			"name": "RA1-Ficheros-Json-ampli-main",
+			"path": "RA1-Ficheros-Json-ampli-main"
+		},
+		{
+			"name": "UD02_FILE",
+			"path": "UD02_FILE"
+		},
+		{
+			"name": "RA1-Ficheros-Xml-Xsd-Dom-main",
+			"path": "RA1-Ficheros-Xml-Xsd-Dom-main"
+		},
+		{
+			"name": "SVA_VSC",
+			"path": "SVA_VSC"
+		},
+		{
+			"name": "UD02P02_Flujos",
+			"path": "UD02P02_Flujos"
+		},
+		{
+			"name": "RA1-Flujos-Binarios-Socket-Servidor",
+			"path": "RA1-Flujos-Binarios-Socket-Servidor"
+		},
+		{
+			"name": "RA1-Flujos-Binarios-Socket-Cliente",
+			"path": "RA1-Flujos-Binarios-Socket-Cliente"
+		},
+		{
+			"name": "RA1-Ficheros-Acceso-Aleatorio",
+			"path": "RA1-Ficheros-Acceso-Aleatorio"
+		},
+		{
+			"name": "RA1_XML_DOM1",
+			"path": "RA1_XML_DOM1"
+		},
+		{
+			"name": "RA1_XML_DOM2",
+			"path": "RA1_XML_DOM2"
+		},
+		{
+			"name": "RA1-Flujos-Binarios",
+			"path": "RA1-Flujos-Binarios"
+		},
+		{
+			"name": "AADD_UD2P03_XML_DOM",
+			"path": "AADD_UD2P03_XML_DOM"
+		},
+		{
+			"name": "ud2-json",
+			"path": "ud2-json"
+		},
+		{
+			"name": "svap05-maven-log",
+			"path": "svap05-maven-log"
+		},
+		{
+			"name": "svap04-maven-log",
+			"path": "svap04-maven-log"
+		},
+		{
+			"name": "AADD",
+			"path": "."
+		}
+	]
+}
