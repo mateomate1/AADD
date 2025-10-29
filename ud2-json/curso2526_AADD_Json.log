@@ -2,3 +2,9 @@
 2025-10-24 13:59:20,358 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
 2025-10-24 13:59:20,363 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo: 27015
 2025-10-24 13:59:20,364 [main] INFO  es.ciudadescolar.util.JsonManager        - curso: 2024-2025
+2025-10-29 10:01:10,148 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-29 10:01:10,156 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo: 27015
+2025-10-29 10:01:10,163 [main] INFO  es.ciudadescolar.util.JsonManager        - curso: 2024-2025
+2025-10-29 10:01:23,538 [main] INFO  es.ciudadescolar.util.JsonManager        - centro: IES Ciudad Escolar
+2025-10-29 10:01:23,543 [main] INFO  es.ciudadescolar.util.JsonManager        - codigo: 27015
+2025-10-29 10:01:23,543 [main] INFO  es.ciudadescolar.util.JsonManager        - curso: 2024-2025
