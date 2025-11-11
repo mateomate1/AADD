@@ -1,0 +1,20 @@
+<!DOCTYPE empresa SYSTEM "empresa.dtd">
+<empresa>
+  <nombre>Acme S.A.</nombre>
+  <empleados>
+    <empleado id="1">
+      <nombre>Ana Lopez</nombre>
+      <puesto>Desarrollador</puesto>
+      <salario>25000</salario>
+    </empleado>
+    <empleado id="2">
+      <nombre>Pablo Ruiz</nombre>
+      <puesto>Disenador</puesto>
+      <salario>22000</salario>
+    </empleado>
+  </empleados>
+  <direccion>
+    <calle>Calle Falsa 123</calle>
+    <ciudad>Madrid</ciudad>
+  </direccion>
+</empresa>

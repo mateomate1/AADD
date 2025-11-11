@@ -174,6 +174,7 @@ public class XmlManager {
         }
     }
 
+    //TODO: generar metodo que recupere un nodelist asi recuperas todos los nodos X
     public Node recuperarNodoRecursivo(Node nodoInicial, String nombreNodo) {
         Node resultado = null;
         if (nodoInicial.getNodeName().equals(nombreNodo))

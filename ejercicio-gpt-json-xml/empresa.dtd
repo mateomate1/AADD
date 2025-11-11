@@ -1,0 +1,10 @@
+<!ELEMENT empresa (nombre, empleados, direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (nombre, puesto, salario)>
+<!ATTLIST empleado id CDATA #REQUIRED>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
+<!ELEMENT direccion (calle, ciudad)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>

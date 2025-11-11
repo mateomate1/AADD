@@ -1,0 +1,26 @@
+{
+  "empresa": {
+    "sector": "Tecnologia",
+    "empleados": {
+      "3": {
+        "nombre": "Laura Diaz",
+        "puesto": "QA",
+        "salario": 21000
+      },
+      "4": {
+        "nombre": "Mario Perez",
+        "puesto": "Analista",
+        "salario": 24000
+      },
+      "5": {
+        "nombre": "Sara Gomez",
+        "puesto": "Soporte Tecnico",
+        "salario": 20000
+      }
+    },
+    "direccion": {
+      "codigo_postal": "28080"
+    }
+  },
+  "origen": "registro_antiguo"
+}
