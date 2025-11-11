@@ -18,8 +18,8 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.ValueNode;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
-public class JsonManagerSheet {
-    private final Logger log = LoggerFactory.getLogger(JsonManagerSheet.class);
+public class JsonManager {
+    private final Logger log = LoggerFactory.getLogger(JsonManager.class);
 
     private File ficheroEntrada;
     private File ficheroSalida;
@@ -29,23 +29,27 @@ public class JsonManagerSheet {
     private DateTimeFormatter formatoOut = DateTimeFormatter.ofPattern(patronFechaOut);
     private DateTimeFormatter formatoIn = DateTimeFormatter.ofPattern(patronFechaIn);
 
-    public JsonManagerSheet() {
+    public JsonManager() {
     }
 
     public void setFicheroEntrada(File ficheroEntrada) {
         this.ficheroEntrada = ficheroEntrada;
+        log.trace("Gestor de json inicializado con exito");
     }
 
     public void setFicheroEntrada(String ficheroEntrada) {
         this.ficheroEntrada = new File(ficheroEntrada);
+        log.trace("Gestor de json inicializado con exito");
     }
 
     public void setFicheroSalida(File ficheroSalida) {
         this.ficheroSalida = ficheroSalida;
+        log.trace("Gestor de json inicializado con exito");
     }
 
     public void setFicheroSalida(String ficheroSalida) {
         this.ficheroSalida = new File(ficheroSalida);
+        log.trace("Gestor de json inicializado con exito");
     }
 
     public void parsearJson() {
