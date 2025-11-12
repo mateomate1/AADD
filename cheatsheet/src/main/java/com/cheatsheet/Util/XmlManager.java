@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
@@ -91,14 +90,11 @@ public class XmlManager {
             documento = db.parse(ficheroXml);
             parsearXmlDocument(documento);
         } catch (ParserConfigurationException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error(e.getMessage());
         } catch (SAXException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error(e.getMessage());
         } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error(e.getMessage());
         }
     }
 
@@ -130,14 +126,9 @@ public class XmlManager {
             documento = db.parse(ficheroXml); // Desde aqui se parsea igual que si se validara contra un DTD
             parsearXmlDocument(documento);
         } catch (SAXException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (ParserConfigurationException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error(e.getMessage());
+        } catch (ParserConfigurationException | IOException e) {
+            log.error(e.getMessage());
         }
     }
 
@@ -174,7 +165,6 @@ public class XmlManager {
         }
     }
 
-    //TODO: generar metodo que recupere un nodelist asi recuperas todos los nodos X
     public Node recuperarNodoRecursivo(Node nodoInicial, String nombreNodo) {
         Node resultado = null;
         if (nodoInicial.getNodeName().equals(nombreNodo))
@@ -192,6 +182,26 @@ public class XmlManager {
             } else if (nodoInicial.getNodeType() == Node.TEXT_NODE)
                 return null;
         }
+        return resultado;
+    }
+
+    public List<Node> recuperarNodosRecursivo(Node nodoInicial, String nombreNodo) {
+        List<Node> resultado = null;
+        if (nodoInicial.getNodeType() == Node.ELEMENT_NODE) {
+            Element elementoInicial = (Element) nodoInicial;
+            NodeList hijos = elementoInicial.getChildNodes();
+            for (int i = 0; i < hijos.getLength(); i++) {
+                Node hijo = hijos.item(i);
+                resultado = recuperarNodosRecursivo(hijo, nombreNodo);
+                if(hijo.getNodeType() == Node.TEXT_NODE){
+                    return null;
+                }else{
+                    List<Node> recuperadosRecursivos = recuperarNodosRecursivo(hijo, nombreNodo);
+                    resultado.addAll(recuperadosRecursivos);
+                }
+            }
+        } else if (nodoInicial.getNodeType() == Node.TEXT_NODE)
+            return null;
         return resultado;
     }
 
@@ -240,8 +250,7 @@ public class XmlManager {
             }
             generarXmlDtd(documento);
         } catch (ParserConfigurationException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error(e.getMessage());
         }
     }
 
@@ -291,14 +300,9 @@ public class XmlManager {
             t.setOutputProperty(OutputKeys.INDENT, "yes");
             t.transform(ds, sr);
         } catch (TransformerConfigurationException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (TransformerException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error(e.getMessage());
+        } catch (IOException | TransformerException e) {
+            log.error(e.getMessage());
         }
     }
 
@@ -343,14 +347,9 @@ public class XmlManager {
             t.setOutputProperty(OutputKeys.INDENT, "yes");
             t.transform(ds, sr);
         } catch (TransformerConfigurationException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (TransformerException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error(e.getMessage());
+        } catch (IOException | TransformerException e) {
+            log.error(e.getMessage());
         }
     }
 }

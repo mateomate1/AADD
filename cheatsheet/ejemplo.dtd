@@ -1,0 +1,4 @@
+<!ELEMENT root (child1 | child2 | child3)*>
+<!ELEMENT child1 (#PCDATA)>
+<!ELEMENT child2 (child1, child3)>
+<!ELEMENT child3 (#PCDATA)>

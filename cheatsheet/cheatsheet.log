@@ -1,0 +1,79 @@
+2025-11-12 09:46:16,329 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:46:16,332 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:46:16,333 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:46:16,333 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:46:16,333 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:46:31,887 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:46:31,889 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:46:31,890 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:46:31,890 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:46:31,890 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:46:44,687 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:46:44,689 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:46:44,690 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:46:44,690 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:46:44,690 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:46:51,298 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:46:51,301 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:46:51,301 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:46:51,301 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:46:51,302 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:46:58,419 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:46:58,421 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:46:58,422 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:46:58,422 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:46:58,422 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:47:35,036 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:47:35,039 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:47:35,039 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:47:35,040 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:47:35,040 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:48:11,233 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:48:11,236 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:48:11,237 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:48:11,237 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:48:11,237 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:48:11,249 [main] WARN  com.cheatsheet.Main                      - No se recuperaron nodos
+2025-11-12 09:49:43,322 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:49:43,325 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:49:43,325 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:49:43,326 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:49:43,326 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:49:43,337 [main] TRACE com.cheatsheet.Main                      - [root: null]
+2025-11-12 09:49:43,337 [main] WARN  com.cheatsheet.Main                      - No se recuperaron nodos
+2025-11-12 09:55:10,002 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:55:10,002 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:55:10,002 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:55:10,002 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:55:10,002 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:55:10,011 [main] TRACE com.cheatsheet.Main                      - [root: null]
+2025-11-12 09:55:10,011 [main] WARN  com.cheatsheet.Main                      - No se recuperaron nodos
+2025-11-12 09:56:23,122 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:56:23,125 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:56:23,125 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:56:23,126 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:56:23,126 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:56:23,136 [main] TRACE com.cheatsheet.Main                      - [root: null]
+2025-11-12 09:56:23,138 [main] WARN  com.cheatsheet.Main                      - No se recuperaron nodos
+2025-11-12 09:56:59,250 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:56:59,254 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:56:59,254 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:56:59,254 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:56:59,255 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:56:59,266 [main] TRACE com.cheatsheet.Main                      - [root: null]
+2025-11-12 09:56:59,267 [main] WARN  com.cheatsheet.Main                      - No se recuperaron nodos
+2025-11-12 09:57:45,682 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 09:57:45,685 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 09:57:45,686 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 09:57:45,686 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 09:57:45,686 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 09:57:45,688 [main] DEBUG com.cheatsheet.Main                      - El archivo existe
+2025-11-12 09:57:45,702 [main] TRACE com.cheatsheet.Main                      - [root: null]
+2025-11-12 09:57:45,704 [main] WARN  com.cheatsheet.Main                      - No se recuperaron nodos
+2025-11-12 10:06:19,705 [main] TRACE com.cheatsheet.Main                      - Mensaje TRACE - nivel mas bajo, para seguimiento detallado del flujo
+2025-11-12 10:06:19,709 [main] DEBUG com.cheatsheet.Main                      - Mensaje DEBUG - informacion util para depuracion
+2025-11-12 10:06:19,709 [main] INFO  com.cheatsheet.Main                      - Mensaje INFO - eventos informativos o confirmacion de que todo va bien
+2025-11-12 10:06:19,709 [main] WARN  com.cheatsheet.Main                      - Mensaje WARN - aviso de una situacion inesperada o posible problema
+2025-11-12 10:06:19,709 [main] ERROR com.cheatsheet.Main                      - Mensaje ERROR - error que impide que algo se ejecute correctamente
+2025-11-12 10:06:19,721 [main] TRACE com.cheatsheet.Main                      - [root: null]
+2025-11-12 10:06:19,722 [main] WARN  com.cheatsheet.Main                      - No se recuperaron nodos

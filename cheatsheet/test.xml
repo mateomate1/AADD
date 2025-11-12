@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "ejemplo.dtd">
+<root>
+    <child1>Texto dentro del primer child1</child1>
+    <child2>
+        <child1>Texto dentro del child1 anidado</child1>
+        <child3>Otro elemento</child3>
+    </child2>
+    <child3>Texto en child3</child3>
+    <child1>Otro child1 al final</child1>
+</root>
