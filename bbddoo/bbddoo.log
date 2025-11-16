@@ -1,0 +1,18 @@
+2025-11-14 13:53:43,628 [main] DEBUG es.ciudadescolar.Util.Bbddoo             - Se ha inicializado la bdd
+2025-11-14 13:53:43,635 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} guardado.
+2025-11-14 13:53:43,635 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} guardado.
+2025-11-14 13:53:43,636 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} guardado.
+2025-11-14 14:09:22,603 [main] WARN  es.ciudadescolar.Util.Bbddoo             - Se procede a eliminar la base de datos
+2025-11-14 14:09:22,835 [main] DEBUG es.ciudadescolar.Util.Bbddoo             - Se ha inicializado la bdd
+2025-11-14 14:09:22,839 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} guardado.
+2025-11-14 14:09:22,841 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} guardado.
+2025-11-14 14:09:22,842 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} guardado.
+2025-11-14 14:09:56,201 [main] WARN  es.ciudadescolar.Util.Bbddoo             - Se procede a eliminar la base de datos
+2025-11-14 14:09:56,497 [main] DEBUG es.ciudadescolar.Util.Bbddoo             - Se ha inicializado la bdd
+2025-11-14 14:09:56,502 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} guardado.
+2025-11-14 14:09:56,503 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} guardado.
+2025-11-14 14:09:56,504 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} guardado.
+2025-11-14 14:09:56,510 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-14 14:09:56,510 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-14 14:09:56,511 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-14 14:09:56,515 [main] INFO  es.ciudadescolar.Main                    - Expediente 1: Alumno{expediente=1, nombre=Paco, edad=12}

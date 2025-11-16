@@ -193,9 +193,9 @@ public class XmlManager {
             for (int i = 0; i < hijos.getLength(); i++) {
                 Node hijo = hijos.item(i);
                 resultado = recuperarNodosRecursivo(hijo, nombreNodo);
-                if(hijo.getNodeType() == Node.TEXT_NODE){
+                if (hijo.getNodeType() == Node.TEXT_NODE) {
                     return null;
-                }else{
+                } else {
                     List<Node> recuperadosRecursivos = recuperarNodosRecursivo(hijo, nombreNodo);
                     resultado.addAll(recuperadosRecursivos);
                 }
@@ -350,6 +350,42 @@ public class XmlManager {
             log.error(e.getMessage());
         } catch (IOException | TransformerException e) {
             log.error(e.getMessage());
+        }
+    }
+
+    public void resumenRecuperarDatosDTD() {
+        try {
+            // Elementos necesarios para generar el elemento Raiz
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            DocumentBuilder db = null;
+            Document documento = null; // Inportante que sea de org.w3c
+
+            dbf.setValidating(true);// Esto solo se activa si se valida contra un dtd sino es false
+            dbf.setIgnoringElementContentWhitespace(true); // ignorar nodos con espacios en blanco (sin información útil)
+
+            db = dbf.newDocumentBuilder(); //El error handler se agregaria aqui
+            documento = db.parse(ficheroXml);
+            parsearXmlDocument(documento);
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+    }
+
+    public void resumenRecuperarDatosXSD() {
+        try {
+            // Elementos necesarios para generar el elemento Raiz
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            DocumentBuilder db = null;
+            Document documento = null; // Inportante que sea de org.w3c
+
+            dbf.setValidating(true);// Esto solo se activa si se valida contra un dtd sino es false
+            dbf.setIgnoringElementContentWhitespace(true); // ignorar nodos con espacios en blanco (sin información útil)
+
+            db = dbf.newDocumentBuilder(); //El error handler se agregaria aqui
+            documento = db.parse(ficheroXml);
+            parsearXmlDocument(documento);
+        } catch (Exception e) {
+            // TODO: handle exception
         }
     }
 }
