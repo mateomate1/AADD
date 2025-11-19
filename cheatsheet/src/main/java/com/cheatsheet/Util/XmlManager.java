@@ -361,29 +361,42 @@ public class XmlManager {
             Document documento = null; // Inportante que sea de org.w3c
 
             dbf.setValidating(true);// Esto solo se activa si se valida contra un dtd sino es false
-            dbf.setIgnoringElementContentWhitespace(true); // ignorar nodos con espacios en blanco (sin información útil)
+            dbf.setIgnoringElementContentWhitespace(true); // ignorar nodos con espacios en blanco (sin información
+                                                           // útil)
 
-            db = dbf.newDocumentBuilder(); //El error handler se agregaria aqui
+            db = dbf.newDocumentBuilder(); // El error handler se agregaria aqui
             documento = db.parse(ficheroXml);
-            parsearXmlDocument(documento);
+            Element elementoRaiz = documento.getDocumentElement();
         } catch (Exception e) {
             // TODO: handle exception
         }
     }
 
-    public void resumenRecuperarDatosXSD() {
+    public void resumenRecuperarDatos() {
+        boolean isXsd = true;
+        boolean isDtd = true;
         try {
             // Elementos necesarios para generar el elemento Raiz
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-            DocumentBuilder db = null;
-            Document documento = null; // Inportante que sea de org.w3c
 
-            dbf.setValidating(true);// Esto solo se activa si se valida contra un dtd sino es false
-            dbf.setIgnoringElementContentWhitespace(true); // ignorar nodos con espacios en blanco (sin información útil)
+            if (isXsd) {
+                SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+                Schema schema = null;
+                schema = sf.newSchema(ficheroXsd);
+                dbf.setSchema(schema);
+            }
+            if (isDtd) {
+                dbf.setValidating(false);// Esto solo se activa si se valida contra un dtd sino es false
+                dbf.setNamespaceAware(true);// Considerar los namespaces
 
-            db = dbf.newDocumentBuilder(); //El error handler se agregaria aqui
-            documento = db.parse(ficheroXml);
-            parsearXmlDocument(documento);
+            }
+            dbf.setIgnoringElementContentWhitespace(true); // ignorar nodos con espacios en blanco (sin información
+                                                           // útil)
+
+
+            DocumentBuilder db = dbf.newDocumentBuilder(); // El error handler se agregaria aqui
+            Document documento = db.parse(ficheroXml);
+            Element elementoRaiz = documento.getDocumentElement();
         } catch (Exception e) {
             // TODO: handle exception
         }

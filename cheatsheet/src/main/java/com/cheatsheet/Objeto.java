@@ -8,6 +8,11 @@ public class Objeto {
     public Objeto() {
     }
 
+    public Objeto(String dato1, String dato2) {
+        this.dato1 = dato1;
+        this.dato2 = dato2;
+    }
+
     public String getDato1() {
         return dato1;
     }
