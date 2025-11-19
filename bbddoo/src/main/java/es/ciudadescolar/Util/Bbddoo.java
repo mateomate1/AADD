@@ -57,9 +57,12 @@ public class Bbddoo {
         if (alumnosRecuperados.size() > 0) {
             for (Alumno alumno : alumnosRecuperados) {
                 alumnos.add(alumno);
+                log.info("Alumno recuperado: " + alumno);
             }
+        } else {
+            log.warn("No se han recuperado alumnos de la base de datos.");
         }
-        return alumnosRecuperados;
+        return alumnos;
     }
 
     public Alumno recuperarAlumnoPorExpediente(String expediente) {
@@ -73,5 +76,59 @@ public class Bbddoo {
             }
         }
         return alumnoRecuperado;
+    }
+
+    public boolean borrarAlumno(Alumno alumno) {
+        boolean status = false;
+        ObjectSet<Alumno> alumnosRecuperados = null;
+        if (db != null) {
+            alumnosRecuperados = db.queryByExample(alumno);
+            int size = alumnosRecuperados.size();
+            if (size == 1) {
+                db.delete(alumno);
+                log.info("Alumno {" + alumno.toString() + "} eliminado.");
+                status = !status;
+            } else {
+                if (size == 0) {
+                    log.warn("No se ha encontrado el alumno {" + alumno.toString() + "} para eliminar.");
+                } else
+                    log.error("Se han encontrado varios alumnos {" + alumno.toString() + "} para eliminar.");
+            }
+        }
+        return status;
+    }
+
+    public boolean borrarTodosAlumnos() {
+        boolean status = false;
+        List<Alumno> alumnos = recuperarTodosAlumnos();
+        if (db != null) {
+            for (Alumno alumno : alumnos) {
+                db.delete(alumno);
+                log.info("Alumno {" + alumno.toString() + "} eliminado.");
+            }
+            status = true;
+        }
+        return status;
+    }
+
+    public boolean modificarEdadAlumno(Alumno alumnoModificar, Integer nuevaEdad) {
+        boolean status = false;
+        ObjectSet<Alumno> alumnosModificar = db.queryByExample(alumnoModificar);
+        Alumno alumno = null;
+        int totalEncontrados = alumnosModificar.size();
+        switch (totalEncontrados) {
+            case 0: log.warn("No se encontro el alumno a modificar");
+                break;
+            case 1:
+                alumno = alumnosModificar.next();
+                alumno.setEdad(nuevaEdad);
+                db.store(alumno);
+                log.info("Alumno modificado: " + alumno.toString());
+                status = true;
+                break;
+            default:
+                log.error("Se han encontrado varios alumnos a modificar");
+        }
+        return status;
     }
 }

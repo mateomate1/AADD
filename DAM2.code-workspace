@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../PSP"
+		}
+	],
+	"settings": {
+		"editor.wordWrap": "on",
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 1500
+	}
+}

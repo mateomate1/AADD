@@ -28,6 +28,24 @@ public class Main {
         }
         String expediente = "1";
         log.info("Expediente " + expediente + ": "+ db.recuperarAlumnoPorExpediente(expediente).toString());
+
+        db.borrarAlumno(al1);
+        log.info("Despues de borrar el alumno con expediente " + expediente);
+        db.recuperarTodosAlumnos();
+
+        db.borrarTodosAlumnos();
+        log.info("Despues de borrar todos los alumnos");
+        db.recuperarTodosAlumnos();
+
+        Alumno al4 = new Alumno("4", "Lucia", 14);
+        Alumno al5 = new Alumno("5", "Marta", 12);
+        db.guardarAlumno(al4);
+        db.guardarAlumno(al5);
+
+        db.modificarEdadAlumno(al5, 18);
+        log.info("Despues de modificar la edad de Marta");
+        db.recuperarTodosAlumnos();
+        
         db.cerrar();
     }
 }

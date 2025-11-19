@@ -16,3 +16,80 @@
 2025-11-14 14:09:56,510 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=1, nombre=Paco, edad=12}
 2025-11-14 14:09:56,511 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=3, nombre=Manu, edad=11}
 2025-11-14 14:09:56,515 [main] INFO  es.ciudadescolar.Main                    - Expediente 1: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:05:29,635 [main] WARN  es.ciudadescolar.Util.Bbddoo             - Se procede a eliminar la base de datos
+2025-11-19 09:05:29,856 [main] DEBUG es.ciudadescolar.Util.Bbddoo             - Se ha inicializado la bdd
+2025-11-19 09:05:29,871 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} guardado.
+2025-11-19 09:05:29,871 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} guardado.
+2025-11-19 09:05:29,872 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} guardado.
+2025-11-19 09:05:29,876 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:05:29,876 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:05:29,876 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:05:29,880 [main] INFO  es.ciudadescolar.Main                    - Expediente 1: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:05:29,884 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} eliminado.
+2025-11-19 09:05:29,885 [main] INFO  es.ciudadescolar.Main                    - Después de borrar el alumno con expediente 1
+2025-11-19 09:06:20,968 [main] WARN  es.ciudadescolar.Util.Bbddoo             - Se procede a eliminar la base de datos
+2025-11-19 09:06:21,137 [main] DEBUG es.ciudadescolar.Util.Bbddoo             - Se ha inicializado la bdd
+2025-11-19 09:06:21,141 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} guardado.
+2025-11-19 09:06:21,141 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} guardado.
+2025-11-19 09:06:21,142 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} guardado.
+2025-11-19 09:06:21,145 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:06:21,146 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:06:21,146 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:06:21,146 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:06:21,147 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:06:21,147 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:06:21,150 [main] INFO  es.ciudadescolar.Main                    - Expediente 1: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:06:21,154 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} eliminado.
+2025-11-19 09:06:21,154 [main] INFO  es.ciudadescolar.Main                    - Despues de borrar el alumno con expediente 1
+2025-11-19 09:06:21,155 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:06:21,155 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:19:47,163 [main] WARN  es.ciudadescolar.Util.Bbddoo             - Se procede a eliminar la base de datos
+2025-11-19 09:19:47,343 [main] DEBUG es.ciudadescolar.Util.Bbddoo             - Se ha inicializado la bdd
+2025-11-19 09:19:47,347 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} guardado.
+2025-11-19 09:19:47,348 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} guardado.
+2025-11-19 09:19:47,348 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} guardado.
+2025-11-19 09:19:47,352 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:19:47,353 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:19:47,353 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:19:47,353 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:19:47,353 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:19:47,354 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:19:47,356 [main] INFO  es.ciudadescolar.Main                    - Expediente 1: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:19:47,360 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} eliminado.
+2025-11-19 09:19:47,361 [main] INFO  es.ciudadescolar.Main                    - Despues de borrar el alumno con expediente 1
+2025-11-19 09:19:47,361 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:19:47,362 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:19:47,362 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:19:47,362 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:19:47,363 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} eliminado.
+2025-11-19 09:19:47,363 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} eliminado.
+2025-11-19 09:19:47,364 [main] INFO  es.ciudadescolar.Main                    - Despues de borrar todos los alumnos
+2025-11-19 09:19:47,364 [main] INFO  es.ciudadescolar.Util.Bbddoo             - No se han recuperado alumnos de la base de datos.
+2025-11-19 09:32:49,639 [main] WARN  es.ciudadescolar.Util.Bbddoo             - Se procede a eliminar la base de datos
+2025-11-19 09:32:49,843 [main] DEBUG es.ciudadescolar.Util.Bbddoo             - Se ha inicializado la bdd
+2025-11-19 09:32:49,846 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} guardado.
+2025-11-19 09:32:49,847 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} guardado.
+2025-11-19 09:32:49,848 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} guardado.
+2025-11-19 09:32:49,851 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:32:49,852 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:32:49,852 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:32:49,852 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:32:49,853 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:32:49,853 [main] INFO  es.ciudadescolar.Main                    - Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:32:49,855 [main] INFO  es.ciudadescolar.Main                    - Expediente 1: Alumno{expediente=1, nombre=Paco, edad=12}
+2025-11-19 09:32:49,860 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=1, nombre=Paco, edad=12}} eliminado.
+2025-11-19 09:32:49,860 [main] INFO  es.ciudadescolar.Main                    - Despues de borrar el alumno con expediente 1
+2025-11-19 09:32:49,861 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:32:49,861 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:32:49,862 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=2, nombre=Andres, edad=13}
+2025-11-19 09:32:49,862 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=3, nombre=Manu, edad=11}
+2025-11-19 09:32:49,862 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=2, nombre=Andres, edad=13}} eliminado.
+2025-11-19 09:32:49,863 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=3, nombre=Manu, edad=11}} eliminado.
+2025-11-19 09:32:49,863 [main] INFO  es.ciudadescolar.Main                    - Despues de borrar todos los alumnos
+2025-11-19 09:32:49,863 [main] WARN  es.ciudadescolar.Util.Bbddoo             - No se han recuperado alumnos de la base de datos.
+2025-11-19 09:32:49,863 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=4, nombre=Lucia, edad=14}} guardado.
+2025-11-19 09:32:49,864 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno {Alumno{expediente=5, nombre=Marta, edad=12}} guardado.
+2025-11-19 09:32:49,865 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno modificado: Alumno{expediente=5, nombre=Marta, edad=18}
+2025-11-19 09:32:49,865 [main] INFO  es.ciudadescolar.Main                    - Despues de modificar la edad de Marta
+2025-11-19 09:32:49,865 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=4, nombre=Lucia, edad=14}
+2025-11-19 09:32:49,865 [main] INFO  es.ciudadescolar.Util.Bbddoo             - Alumno recuperado: Alumno{expediente=5, nombre=Marta, edad=18}
