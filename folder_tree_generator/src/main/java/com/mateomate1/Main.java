@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         FolderStructureTranslator fst = new FolderStructureTranslator();
-        String pathname = "C:\\Users\\Mateo\\Documents\\GitHub\\DAM2.2\\Repos Aparte\\demo-practica-voluntaria-mateomate1";
+        String pathname = "C:\\Users\\Alumno\\Desktop\\DAM 2.2\\AADD\\svap04-maven-log";
         File folder = new File(pathname);
         File salida = new File("tree.txt");
         FileStructureFilter fsf = new FileStructureFilter();
