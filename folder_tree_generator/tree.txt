@@ -1,0 +1,48 @@
+demo-practica-voluntaria-mateomate1/
+    ├── .gitignore
+    ├── AAD_UD05P01E01_JSON_Girona_mateo_ayarra.json
+    ├── AAD_UD5P01_JSON.pdf
+    ├── atrib_definition.xml
+    ├── plantilla-practica-aadd.log
+    ├── pom.xml
+    ├── readme.md
+    ├── season-1819.json
+    ├── src/
+    │   └── main/
+    │       ├── java/
+    │       │   └── es/
+    │       │       └── ciudadescolar/
+    │       │           └── AAD/
+    │       │               └── UD05E01/
+    │       │                   └── MateoAyarra/
+    │       │                       ├── Main.java
+    │       │                       └── Util/
+    │       │                           ├── Equipo.java
+    │       │                           ├── JsonManager.java
+    │       │                           ├── Partido.java
+    │       │                           └── XmlManager.java
+    │       └── resources/
+    │           └── Logback.xml
+    └── target/
+        ├── archive-tmp/
+        ├── classes/
+        │   ├── es/
+        │   │   └── ciudadescolar/
+        │   │       └── AAD/
+        │   │           └── UD05E01/
+        │   │               └── MateoAyarra/
+        │   │                   └── Util/
+        │   └── Logback.xml
+        ├── generated-sources/
+        │   └── annotations/
+        ├── maven-archiver/
+        │   └── pom.properties
+        ├── maven-status/
+        │   └── maven-compiler-plugin/
+        │       └── compile/
+        │           └── default-compile/
+        │               ├── createdFiles.lst
+        │               └── inputFiles.lst
+        ├── plantilla-aadd-practica-examen-1.0.0-jar-with-dependencies.jar
+        ├── plantilla-aadd-practica-examen-1.0.0.jar
+        └── test-classes/

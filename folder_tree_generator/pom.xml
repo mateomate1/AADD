@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mateomate1</groupId>
-    <artifactId>folder-info-generator</artifactId>
+    <artifactId>folder_tree_generator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Folder info generatos</name>
-    <description>Generador de texto para generar una estructura de carpetas en texto basado en un file de una carpeta</description>
+    <name>Folder tree generator</name>
+    <description>Generador de estructuras de directorios en texto a partir del contenido real de una carpeta del sistema de archivos, produciendo una representacion jerarquica legible en formato de arbol.</description>
     <licenses>
         <license>
             <name>MIT License</name>
