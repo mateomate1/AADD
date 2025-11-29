@@ -6,14 +6,14 @@
 			</pattern>
 		</encoder>
 	</appender>
-
+	
 	<appender name="Fichero" class="ch.qos.logback.core.FileAppender">
-		<file>folder_tree_generator.log</file>
+		<file>curso2526_UD3_BBDD_relacionales.log</file>
 		<encoder>
 			<pattern>%d [%thread] %-5level %-40logger{50} - %msg%n</pattern>
 		</encoder>
 	</appender>
-	<root level="info">
+	<root level="trace">
 		<appender-ref ref="Consola" />
 		<appender-ref ref="Fichero" />
 	</root>

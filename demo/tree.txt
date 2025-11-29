@@ -1,0 +1,19 @@
+./
+    ├── .vscode/
+    │   └── settings.json
+    ├── pom.xml
+    ├── src/
+    │   ├── main/
+    │   │   ├── java/
+    │   │   │   └── com/
+    │   │   │       └── example/
+    │   │   │           └── Main.java
+    │   │   └── resources/
+    │   └── test/
+    │       └── java/
+    └── target/
+        ├── classes/
+        │   └── com/
+        │       └── example/
+        │           └── Main.class
+        └── test-classes/
