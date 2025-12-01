@@ -4,18 +4,19 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cheatsheet</groupId>
-    <artifactId>cheatsheet</artifactId>
+    <groupId>es.ciudadescolar</groupId>
+    <artifactId>ra2-jdbc-clase</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Cheatsheet</name>
-    <description>Cheatsheet para apuntes de los gestores de los diferentes archivos</description>
+    <name>RA2-JDBC-CLASE</name>
+    <description></description>
     <licenses>
         <license>
             <name>MIT License</name>
             <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
+
     <developers>
         <developer>
             <id>mateomate1</id>
@@ -24,7 +25,6 @@
         </developer>
     </developers>
 
-    <!-- Se incluye en la libreria por defecto la libreria de los xml-->
     <dependencies>
         <!-- Dependencias de sljf para los logs-->
         <dependency>
@@ -36,25 +36,6 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.5.19</version>
-        </dependency>
-
-        <!-- Dependencia de Jackson para Json-->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.20.0</version>
-        </dependency>
-        <!-- Dependencia de Jackson especifica para las fechas formateadas-->
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
-            <version>2.20.0</version> <!-- usa la misma versión que jackson-databind -->
-        </dependency>
-        <!-- Dependencia de db4o para BBDD de objetos (BBDDOO) -->
-        <dependency>
-            <groupId>com.db4o</groupId>
-            <artifactId>com.db4o</artifactId>
-            <version>7.7.67</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
         <dependency>
@@ -71,7 +52,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.12.1</version>
                 <configuration>
-                    <release>21</release>
+                    <release>17</release>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -83,7 +64,30 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.7.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>es.ciudadescolar.Main</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
-
 </project>
