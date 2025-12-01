@@ -9,7 +9,7 @@
             },
             "ssh": "Disabled",
             "previewLimit": 50,
-            "server": "192.168.203.168",
+            "server": "192.168.202.9",
             "port": 3306,
             "driver": "MySQL",
             "name": "bd_profe",
