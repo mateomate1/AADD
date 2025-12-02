@@ -1,1 +1,0 @@
-SELECT max(expediente) FROM alumnos;

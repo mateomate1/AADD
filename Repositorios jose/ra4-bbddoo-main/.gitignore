@@ -1,0 +1,17 @@
+## VS Code 
+.vscode/
+
+# no subir la carpeta de compilación maven
+target/
+
+# Archivos de compilación Java y trazas
+*.class
+*.log
+
+# Archivos de bases de datos OO
+*.db4o
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
+
