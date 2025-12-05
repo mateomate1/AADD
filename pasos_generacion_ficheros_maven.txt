@@ -1,0 +1,21 @@
+cd target
+
+gpg --armor --detach-sign folder_tree_generator-1.0.0.jar
+gpg --armor --detach-sign folder_tree_generator-1.0.0-sources.jar
+gpg --armor --detach-sign folder_tree_generator-1.0.0-javadoc.jar
+gpg --armor --detach-sign folder_tree_generator-1.0.0.pom
+
+gpg --print-md MD5 folder_tree_generator-1.0.0.jar > folder_tree_generator-1.0.0.jar.md5
+gpg --print-md MD5 folder_tree_generator-1.0.0-sources.jar > folder_tree_generator-1.0.0-sources.jar.md5
+gpg --print-md MD5 folder_tree_generator-1.0.0-javadoc.jar > folder_tree_generator-1.0.0-javadoc.jar.md5
+gpg --print-md MD5 folder_tree_generator-1.0.0.pom > folder_tree_generator-1.0.0.pom.md5
+
+gpg --print-md SHA1 folder_tree_generator-1.0.0.jar > folder_tree_generator-1.0.0.jar.sha1
+gpg --print-md SHA1 folder_tree_generator-1.0.0-sources.jar > folder_tree_generator-1.0.0-sources.jar.sha1
+gpg --print-md SHA1 folder_tree_generator-1.0.0-javadoc.jar > folder_tree_generator-1.0.0-javadoc.jar.sha1
+gpg --print-md SHA1 folder_tree_generator-1.0.0.pom > folder_tree_generator-1.0.0.pom.sha1
+
+gpg --print-md SHA256 folder_tree_generator-1.0.0.jar > folder_tree_generator-1.0.0.jar.sha256
+gpg --print-md SHA256 folder_tree_generator-1.0.0-sources.jar > folder_tree_generator-1.0.0-sources.jar.sha256
+gpg --print-md SHA256 folder_tree_generator-1.0.0-javadoc.jar > folder_tree_generator-1.0.0-javadoc.jar.sha256
+gpg --print-md SHA256 folder_tree_generator-1.0.0.pom > folder_tree_generator-1.0.0.pom.sha256
