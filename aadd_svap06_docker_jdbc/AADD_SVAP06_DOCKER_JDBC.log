@@ -1,0 +1,787 @@
+2025-12-08 15:52:07,353 [main] ERROR es.ciudadescolar.util.DBManager          - No se encontro el fichero properties: conexionBD.properties (El sistema no puede encontrar el archivo especificado)
+2025-12-08 15:52:32,841 [main] DEBUG es.ciudadescolar.util.DBManager          - Conexion establecida con exito
+2025-12-08 15:52:32,849 [main] DEBUG es.ciudadescolar.util.DBManager          - Conexion cerrada satisfactoriamente
+2025-12-08 16:43:48,274 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 16:44:43,859 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 16:44:43,863 [main] TRACE es.ciudadescolar.util.TXTManager         - [Ljava.lang.String;@4c40b76e
+2025-12-08 16:45:10,739 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 16:45:10,744 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id, first_name last_name)]
+2025-12-08 17:40:59,510 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:40:59,516 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:40:59,517 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:40:59,518 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:40:59,518 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:40:59,519 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:40:59,522 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:40:59,522 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:40:59,523 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:40:59,524 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:40:59,524 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis
+2025-12-08 17:40:59,525 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis]
+2025-12-08 17:40:59,526 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-08 17:40:59,526 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-08 17:40:59,527 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-08 17:40:59,528 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-08 17:40:59,528 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-08 17:40:59,529 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-08 17:40:59,531 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-08 17:41:51,117 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:41:51,122 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:41:51,123 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:41:51,124 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:41:51,124 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:41:51,125 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:41:51,126 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:41:51,127 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:41:51,127 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:41:51,128 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:41:51,128 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis
+2025-12-08 17:41:51,129 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis]
+2025-12-08 17:41:51,129 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-08 17:41:51,129 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-08 17:41:51,130 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-08 17:41:51,131 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,132 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,133 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,133 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,133 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,134 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,134 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,134 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,134 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,134 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2000, first_name=El padrino, last_name=1972]
+2025-12-08 17:41:51,135 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-08 17:41:51,135 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,136 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,137 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,137 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,138 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,138 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,138 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,139 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,139 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,140 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,140 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,140 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2001, first_name=Rocky, last_name=1976]
+2025-12-08 17:41:51,140 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-08 17:41:51,140 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,141 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,141 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,141 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,141 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,142 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,142 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,142 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,143 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,143 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,143 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,143 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2002, first_name=Jungla de cristal, last_name=1988]
+2025-12-08 17:41:51,144 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-08 17:41:51,144 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,144 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,144 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,145 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,145 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,145 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,145 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,146 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2003, first_name=Los mercenarios 2, last_name=2012]
+2025-12-08 17:41:51,146 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-08 17:41:51,146 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2004, first_name=Presunto inocente, last_name=1990]
+2025-12-08 17:41:51,147 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2004, first_name=Presunto inocente, last_name=1990]
+2025-12-08 17:41:51,147 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2004, first_name=Presunto inocente, last_name=1990]
+2025-12-08 17:41:51,147 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2004, first_name=Presunto inocente, last_name=1990]
+2025-12-08 17:41:51,148 [main] TRACE es.ciudadescolar.Main                    - Actor [id=2004, first_name=Presunto inocente, last_name=1990]
+2025-12-08 17:42:24,289 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:42:24,294 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:42:24,295 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:42:24,296 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:42:24,296 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:42:24,297 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:42:24,301 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:42:24,301 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:42:24,303 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:42:24,303 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:42:24,304 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis
+2025-12-08 17:42:24,306 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis]
+2025-12-08 17:42:24,306 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-08 17:42:24,306 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-08 17:42:24,308 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-08 17:42:24,308 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,308 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,309 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,309 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,311 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,311 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,311 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,312 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,312 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,312 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino,]
+2025-12-08 17:42:24,312 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-08 17:42:24,313 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,314 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,315 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,315 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,316 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,316 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,316 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,317 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,317 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,318 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,319 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,320 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone,]
+2025-12-08 17:42:24,321 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-08 17:42:24,321 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,322 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,323 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,323 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,324 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,324 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,325 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,326 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,326 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,326 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,327 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,327 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman,]
+2025-12-08 17:42:24,328 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-08 17:42:24,328 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,329 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,329 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,330 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,330 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,331 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,331 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,332 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham,]
+2025-12-08 17:42:24,332 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-08 17:42:24,332 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia,215]
+2025-12-08 17:42:24,333 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia,215]
+2025-12-08 17:42:24,333 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia,215]
+2025-12-08 17:42:24,334 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia,215]
+2025-12-08 17:42:24,335 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia,215]
+2025-12-08 17:45:02,778 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:45:02,782 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:45:02,783 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:45:02,784 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:45:02,786 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:45:02,787 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:46:41,922 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:46:41,927 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:46:41,928 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:46:41,929 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:46:41,930 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:46:41,931 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:48:20,849 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:48:20,854 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:48:20,855 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:48:20,856 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:48:20,857 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:48:20,858 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:48:20,860 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:48:20,861 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:48:20,861 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:48:57,043 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:48:57,047 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:48:57,048 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:48:57,049 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:48:57,049 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:48:57,049 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:48:57,052 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:48:57,053 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:48:57,053 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:48:57,054 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:50:04,229 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:50:04,234 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:50:04,235 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:50:04,236 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:50:04,237 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:50:04,238 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:50:04,240 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:50:04,241 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:50:04,241 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:50:04,242 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:50:04,242 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:50:19,281 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:50:19,286 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:50:19,288 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:50:19,289 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:50:19,290 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:50:19,291 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:50:19,293 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:50:19,295 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:50:19,296 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:50:19,297 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:50:19,298 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:52:11,939 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:52:11,943 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:52:11,944 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:52:11,945 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:52:11,945 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:52:11,946 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:52:11,948 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:52:11,949 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000]
+2025-12-08 17:52:11,951 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:52:11,952 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:52:11,953 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:52:11,953 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:52:43,919 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:52:43,924 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:52:43,925 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:52:43,926 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:52:43,927 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:52:43,927 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:52:43,929 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:52:43,930 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-08 17:52:43,931 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:52:43,932 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:52:43,932 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:52:43,933 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:52:43,933 [main] TRACE es.ciudadescolar.util.TXTManager         -  204-Marlon Brando
+2025-12-08 17:52:43,934 [main] TRACE es.ciudadescolar.util.TXTManager         - [, 204, Marlon, Brando]
+2025-12-08 17:52:43,935 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:52:43,936 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:52:43,938 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:52:43,938 [main] TRACE es.ciudadescolar.util.TXTManager         - 4
+2025-12-08 17:53:27,943 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:53:27,951 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:53:27,952 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:53:27,953 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:53:27,954 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:53:27,955 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:53:27,958 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:53:27,959 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-08 17:53:27,962 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:27,964 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:27,965 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:27,966 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:27,967 [main] TRACE es.ciudadescolar.util.TXTManager         - 204-Marlon Brando
+2025-12-08 17:53:27,967 [main] TRACE es.ciudadescolar.util.TXTManager         - [204, Marlon, Brando]
+2025-12-08 17:53:27,968 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:27,969 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:27,970 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:27,971 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:27,972 [main] TRACE es.ciudadescolar.util.TXTManager         - 205-Robert De Niro
+2025-12-08 17:53:27,972 [main] TRACE es.ciudadescolar.util.TXTManager         - [205, Robert, De, Niro]
+2025-12-08 17:53:27,973 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:27,974 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:27,975 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:27,976 [main] TRACE es.ciudadescolar.util.TXTManager         - 4
+2025-12-08 17:53:27,976 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:53:27,979 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:53:27,983 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:53:27,983 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:53:27,984 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:27,986 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:27,987 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:27,987 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:27,988 [main] TRACE es.ciudadescolar.util.TXTManager         - 207-Carl Weathers
+2025-12-08 17:53:27,989 [main] TRACE es.ciudadescolar.util.TXTManager         - [207, Carl, Weathers]
+2025-12-08 17:53:27,990 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:27,990 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:27,991 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:27,992 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:27,993 [main] TRACE es.ciudadescolar.util.TXTManager         - 208-Burgess Meredith
+2025-12-08 17:53:27,994 [main] TRACE es.ciudadescolar.util.TXTManager         - [208, Burgess, Meredith]
+2025-12-08 17:53:27,995 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:27,996 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:27,997 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:27,999 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:27,999 [main] TRACE es.ciudadescolar.util.TXTManager         - 209-Talia Shire
+2025-12-08 17:53:28,000 [main] TRACE es.ciudadescolar.util.TXTManager         - [209, Talia, Shire]
+2025-12-08 17:53:28,002 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,003 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,003 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,004 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:28,005 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:53:28,006 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:53:28,007 [main] TRACE es.ciudadescolar.util.TXTManager         - 210-Alan Rickman
+2025-12-08 17:53:28,008 [main] TRACE es.ciudadescolar.util.TXTManager         - [210, Alan, Rickman]
+2025-12-08 17:53:28,009 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,009 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,010 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,012 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:28,013 [main] TRACE es.ciudadescolar.util.TXTManager         - 211-Bonnie Bedelia
+2025-12-08 17:53:28,015 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:53:28,016 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,018 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,019 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,021 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:28,022 [main] TRACE es.ciudadescolar.util.TXTManager         - 212-Reginald Veljohnson
+2025-12-08 17:53:28,023 [main] TRACE es.ciudadescolar.util.TXTManager         - [212, Reginald, Veljohnson]
+2025-12-08 17:53:28,023 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,024 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,024 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,025 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:28,026 [main] TRACE es.ciudadescolar.util.TXTManager         - 213-Bruce Willis
+2025-12-08 17:53:28,026 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:53:28,029 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,029 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,032 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,033 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:28,033 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis
+2025-12-08 17:53:28,034 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis]
+2025-12-08 17:53:28,036 [main] TRACE es.ciudadescolar.util.TXTManager         - 214-Jason Statham
+2025-12-08 17:53:28,037 [main] TRACE es.ciudadescolar.util.TXTManager         - [214, Jason, Statham]
+2025-12-08 17:53:28,037 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,038 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,039 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,039 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:28,040 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:53:28,041 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:53:28,042 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,043 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,045 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,047 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:53:28,048 [main] TRACE es.ciudadescolar.util.TXTManager         - 213Bruce Willis
+2025-12-08 17:53:28,049 [main] TRACE es.ciudadescolar.util.TXTManager         - [213Bruce, Willis]
+2025-12-08 17:53:28,050 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:53:28,053 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:53:28,054 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:53:28,056 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,810 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:56:47,815 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:56:47,816 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:56:47,817 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:56:47,817 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:56:47,818 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:56:47,820 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:56:47,821 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-08 17:56:47,822 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,823 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,824 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,825 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,825 [main] TRACE es.ciudadescolar.util.TXTManager         - 204-Marlon Brando
+2025-12-08 17:56:47,826 [main] TRACE es.ciudadescolar.util.TXTManager         - [204, Marlon, Brando]
+2025-12-08 17:56:47,826 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,826 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,827 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,827 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,827 [main] TRACE es.ciudadescolar.util.TXTManager         - 205-Robert De Niro
+2025-12-08 17:56:47,828 [main] TRACE es.ciudadescolar.util.TXTManager         - [205, Robert, De, Niro]
+2025-12-08 17:56:47,828 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,828 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,829 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,829 [main] TRACE es.ciudadescolar.util.TXTManager         - 4
+2025-12-08 17:56:47,830 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:56:47,830 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:56:47,830 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:56:47,831 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:56:47,832 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,832 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,832 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,833 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,833 [main] TRACE es.ciudadescolar.util.TXTManager         - 207-Carl Weathers
+2025-12-08 17:56:47,834 [main] TRACE es.ciudadescolar.util.TXTManager         - [207, Carl, Weathers]
+2025-12-08 17:56:47,834 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,834 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,834 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,835 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,835 [main] TRACE es.ciudadescolar.util.TXTManager         - 208-Burgess Meredith
+2025-12-08 17:56:47,835 [main] TRACE es.ciudadescolar.util.TXTManager         - [208, Burgess, Meredith]
+2025-12-08 17:56:47,836 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,836 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,836 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,837 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,837 [main] TRACE es.ciudadescolar.util.TXTManager         - 209-Talia Shire
+2025-12-08 17:56:47,837 [main] TRACE es.ciudadescolar.util.TXTManager         - [209, Talia, Shire]
+2025-12-08 17:56:47,838 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,838 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,838 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,839 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,839 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:56:47,840 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:56:47,841 [main] TRACE es.ciudadescolar.util.TXTManager         - 210-Alan Rickman
+2025-12-08 17:56:47,842 [main] TRACE es.ciudadescolar.util.TXTManager         - [210, Alan, Rickman]
+2025-12-08 17:56:47,843 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,844 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,844 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,845 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,845 [main] TRACE es.ciudadescolar.util.TXTManager         - 211-Bonnie Bedelia
+2025-12-08 17:56:47,846 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:56:47,846 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,846 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,847 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,847 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,848 [main] TRACE es.ciudadescolar.util.TXTManager         - 212-Reginald Veljohnson
+2025-12-08 17:56:47,848 [main] TRACE es.ciudadescolar.util.TXTManager         - [212, Reginald, Veljohnson]
+2025-12-08 17:56:47,849 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,850 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,850 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,851 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,852 [main] TRACE es.ciudadescolar.util.TXTManager         - 213-Bruce Willis
+2025-12-08 17:56:47,852 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:56:47,853 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,853 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,853 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,854 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,854 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis
+2025-12-08 17:56:47,855 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213Bruce Willis]
+2025-12-08 17:56:47,857 [main] TRACE es.ciudadescolar.util.TXTManager         - 214-Jason Statham
+2025-12-08 17:56:47,857 [main] TRACE es.ciudadescolar.util.TXTManager         - [214, Jason, Statham]
+2025-12-08 17:56:47,858 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,859 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,859 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,860 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,860 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:56:47,862 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:56:47,862 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,862 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,863 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,864 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:56:47,864 [main] TRACE es.ciudadescolar.util.TXTManager         - 213Bruce Willis
+2025-12-08 17:56:47,864 [main] TRACE es.ciudadescolar.util.TXTManager         - [213Bruce, Willis]
+2025-12-08 17:56:47,865 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:56:47,865 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:56:47,866 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:56:47,866 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,942 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:57:16,948 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:57:16,948 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:57:16,949 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:57:16,950 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:57:16,950 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:57:16,952 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:57:16,953 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-08 17:57:16,954 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,955 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,955 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,956 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,957 [main] TRACE es.ciudadescolar.util.TXTManager         - 204-Marlon Brando
+2025-12-08 17:57:16,957 [main] TRACE es.ciudadescolar.util.TXTManager         - [204, Marlon, Brando]
+2025-12-08 17:57:16,958 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,958 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,958 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,959 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,959 [main] TRACE es.ciudadescolar.util.TXTManager         - 205-Robert De Niro
+2025-12-08 17:57:16,960 [main] TRACE es.ciudadescolar.util.TXTManager         - [205, Robert, De, Niro]
+2025-12-08 17:57:16,960 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,961 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,961 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,961 [main] TRACE es.ciudadescolar.util.TXTManager         - 4
+2025-12-08 17:57:16,963 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:57:16,964 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:57:16,965 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:57:16,966 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:57:16,967 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,968 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,968 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,969 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,969 [main] TRACE es.ciudadescolar.util.TXTManager         - 207-Carl Weathers
+2025-12-08 17:57:16,970 [main] TRACE es.ciudadescolar.util.TXTManager         - [207, Carl, Weathers]
+2025-12-08 17:57:16,970 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,971 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,971 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,971 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,972 [main] TRACE es.ciudadescolar.util.TXTManager         - 208-Burgess Meredith
+2025-12-08 17:57:16,972 [main] TRACE es.ciudadescolar.util.TXTManager         - [208, Burgess, Meredith]
+2025-12-08 17:57:16,973 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,973 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,973 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,974 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,974 [main] TRACE es.ciudadescolar.util.TXTManager         - 209-Talia Shire
+2025-12-08 17:57:16,975 [main] TRACE es.ciudadescolar.util.TXTManager         - [209, Talia, Shire]
+2025-12-08 17:57:16,975 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,976 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,976 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,977 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,977 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:57:16,977 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:57:16,978 [main] TRACE es.ciudadescolar.util.TXTManager         - 210-Alan Rickman
+2025-12-08 17:57:16,978 [main] TRACE es.ciudadescolar.util.TXTManager         - [210, Alan, Rickman]
+2025-12-08 17:57:16,979 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,980 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,981 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,982 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,983 [main] TRACE es.ciudadescolar.util.TXTManager         - 211-Bonnie Bedelia
+2025-12-08 17:57:16,983 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:57:16,984 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,984 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,985 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,985 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,986 [main] TRACE es.ciudadescolar.util.TXTManager         - 212-Reginald Veljohnson
+2025-12-08 17:57:16,987 [main] TRACE es.ciudadescolar.util.TXTManager         - [212, Reginald, Veljohnson]
+2025-12-08 17:57:16,987 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,988 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,988 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,989 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,989 [main] TRACE es.ciudadescolar.util.TXTManager         - 213-Bruce Willis
+2025-12-08 17:57:16,989 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:57:16,990 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,991 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,991 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,992 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,992 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis
+2025-12-08 17:57:16,993 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis]
+2025-12-08 17:57:16,993 [main] TRACE es.ciudadescolar.util.TXTManager         - 214-Jason Statham
+2025-12-08 17:57:16,994 [main] TRACE es.ciudadescolar.util.TXTManager         - [214, Jason, Statham]
+2025-12-08 17:57:16,995 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:16,995 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:16,996 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:16,997 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:16,998 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:57:16,999 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:57:17,000 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:17,000 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:17,001 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:17,001 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:17,002 [main] TRACE es.ciudadescolar.util.TXTManager         - 213-Bruce Willis
+2025-12-08 17:57:17,002 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:57:17,003 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:17,004 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:17,005 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:17,006 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:17,007 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-08 17:57:17,007 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-08 17:57:17,008 [main] TRACE es.ciudadescolar.util.TXTManager         - 211-Bonnie Bedelia
+2025-12-08 17:57:17,008 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:57:17,008 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:17,009 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:17,009 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:17,010 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:17,010 [main] TRACE es.ciudadescolar.util.TXTManager         - 215-Harrison Ford
+2025-12-08 17:57:17,011 [main] TRACE es.ciudadescolar.util.TXTManager         - [215, Harrison, Ford]
+2025-12-08 17:57:17,011 [main] TRACE es.ciudadescolar.util.TXTManager         - 0
+2025-12-08 17:57:17,011 [main] TRACE es.ciudadescolar.util.TXTManager         - 1
+2025-12-08 17:57:17,012 [main] TRACE es.ciudadescolar.util.TXTManager         - 2
+2025-12-08 17:57:17,013 [main] TRACE es.ciudadescolar.util.TXTManager         - 3
+2025-12-08 17:57:17,015 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-08 17:57:17,016 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino]
+2025-12-08 17:57:17,017 [main] TRACE es.ciudadescolar.Main                    - Actor [id=204, first_name=Marlon, last_name=Brando]
+2025-12-08 17:57:17,017 [main] TRACE es.ciudadescolar.Main                    - Actor [id=205, first_name=Robert, last_name=De]
+2025-12-08 17:57:17,018 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-08 17:57:17,018 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-08 17:57:17,019 [main] TRACE es.ciudadescolar.Main                    - Actor [id=207, first_name=Carl, last_name=Weathers]
+2025-12-08 17:57:17,019 [main] TRACE es.ciudadescolar.Main                    - Actor [id=208, first_name=Burgess, last_name=Meredith]
+2025-12-08 17:57:17,020 [main] TRACE es.ciudadescolar.Main                    - Actor [id=209, first_name=Talia, last_name=Shire]
+2025-12-08 17:57:17,021 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-08 17:57:17,022 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman]
+2025-12-08 17:57:17,022 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-08 17:57:17,023 [main] TRACE es.ciudadescolar.Main                    - Actor [id=212, first_name=Reginald, last_name=Veljohnson]
+2025-12-08 17:57:17,023 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-08 17:57:17,023 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-08 17:57:17,024 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham]
+2025-12-08 17:57:17,024 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-08 17:57:17,025 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-08 17:57:17,025 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-08 17:57:17,026 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-08 17:57:17,027 [main] TRACE es.ciudadescolar.Main                    - Actor [id=215, first_name=Harrison, last_name=Ford]
+2025-12-08 17:57:43,715 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:57:43,720 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:57:43,722 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:57:43,723 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:57:43,723 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:57:43,724 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:57:43,725 [main] TRACE es.ciudadescolar.util.TXTManager         - 203-Al Pacino
+2025-12-08 17:57:43,726 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-08 17:57:43,727 [main] TRACE es.ciudadescolar.util.TXTManager         - 204-Marlon Brando
+2025-12-08 17:57:43,728 [main] TRACE es.ciudadescolar.util.TXTManager         - [204, Marlon, Brando]
+2025-12-08 17:57:43,729 [main] TRACE es.ciudadescolar.util.TXTManager         - 205-Robert De Niro
+2025-12-08 17:57:43,729 [main] TRACE es.ciudadescolar.util.TXTManager         - [205, Robert, De, Niro]
+2025-12-08 17:57:43,729 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:57:43,730 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:57:43,730 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:57:43,730 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:57:43,730 [main] TRACE es.ciudadescolar.util.TXTManager         - 207-Carl Weathers
+2025-12-08 17:57:43,731 [main] TRACE es.ciudadescolar.util.TXTManager         - [207, Carl, Weathers]
+2025-12-08 17:57:43,731 [main] TRACE es.ciudadescolar.util.TXTManager         - 208-Burgess Meredith
+2025-12-08 17:57:43,731 [main] TRACE es.ciudadescolar.util.TXTManager         - [208, Burgess, Meredith]
+2025-12-08 17:57:43,732 [main] TRACE es.ciudadescolar.util.TXTManager         - 209-Talia Shire
+2025-12-08 17:57:43,732 [main] TRACE es.ciudadescolar.util.TXTManager         - [209, Talia, Shire]
+2025-12-08 17:57:43,732 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:57:43,732 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:57:43,733 [main] TRACE es.ciudadescolar.util.TXTManager         - 210-Alan Rickman
+2025-12-08 17:57:43,733 [main] TRACE es.ciudadescolar.util.TXTManager         - [210, Alan, Rickman]
+2025-12-08 17:57:43,733 [main] TRACE es.ciudadescolar.util.TXTManager         - 211-Bonnie Bedelia
+2025-12-08 17:57:43,734 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:57:43,734 [main] TRACE es.ciudadescolar.util.TXTManager         - 212-Reginald Veljohnson
+2025-12-08 17:57:43,735 [main] TRACE es.ciudadescolar.util.TXTManager         - [212, Reginald, Veljohnson]
+2025-12-08 17:57:43,735 [main] TRACE es.ciudadescolar.util.TXTManager         - 213-Bruce Willis
+2025-12-08 17:57:43,735 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:57:43,736 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis
+2025-12-08 17:57:43,736 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis]
+2025-12-08 17:57:43,736 [main] TRACE es.ciudadescolar.util.TXTManager         - 214-Jason Statham
+2025-12-08 17:57:43,737 [main] TRACE es.ciudadescolar.util.TXTManager         - [214, Jason, Statham]
+2025-12-08 17:57:43,737 [main] TRACE es.ciudadescolar.util.TXTManager         - 206-Sylvester Stallone
+2025-12-08 17:57:43,738 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:57:43,739 [main] TRACE es.ciudadescolar.util.TXTManager         - 213-Bruce Willis
+2025-12-08 17:57:43,740 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:57:43,741 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-08 17:57:43,741 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-08 17:57:43,742 [main] TRACE es.ciudadescolar.util.TXTManager         - 211-Bonnie Bedelia
+2025-12-08 17:57:43,743 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:57:43,743 [main] TRACE es.ciudadescolar.util.TXTManager         - 215-Harrison Ford
+2025-12-08 17:57:43,743 [main] TRACE es.ciudadescolar.util.TXTManager         - [215, Harrison, Ford]
+2025-12-08 17:57:43,744 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-08 17:57:43,745 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino]
+2025-12-08 17:57:43,745 [main] TRACE es.ciudadescolar.Main                    - Actor [id=204, first_name=Marlon, last_name=Brando]
+2025-12-08 17:57:43,745 [main] TRACE es.ciudadescolar.Main                    - Actor [id=205, first_name=Robert, last_name=De]
+2025-12-08 17:57:43,746 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-08 17:57:43,746 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-08 17:57:43,746 [main] TRACE es.ciudadescolar.Main                    - Actor [id=207, first_name=Carl, last_name=Weathers]
+2025-12-08 17:57:43,746 [main] TRACE es.ciudadescolar.Main                    - Actor [id=208, first_name=Burgess, last_name=Meredith]
+2025-12-08 17:57:43,747 [main] TRACE es.ciudadescolar.Main                    - Actor [id=209, first_name=Talia, last_name=Shire]
+2025-12-08 17:57:43,747 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-08 17:57:43,747 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman]
+2025-12-08 17:57:43,747 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-08 17:57:43,748 [main] TRACE es.ciudadescolar.Main                    - Actor [id=212, first_name=Reginald, last_name=Veljohnson]
+2025-12-08 17:57:43,748 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-08 17:57:43,748 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-08 17:57:43,749 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham]
+2025-12-08 17:57:43,749 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-08 17:57:43,750 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-08 17:57:43,751 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-08 17:57:43,751 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-08 17:57:43,752 [main] TRACE es.ciudadescolar.Main                    - Actor [id=215, first_name=Harrison, last_name=Ford]
+2025-12-08 17:57:54,218 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-08 17:57:54,223 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-08 17:57:54,224 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-08 17:57:54,224 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-08 17:57:54,225 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-08 17:57:54,226 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-08 17:57:54,229 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-08 17:57:54,230 [main] TRACE es.ciudadescolar.util.TXTManager         - [204, Marlon, Brando]
+2025-12-08 17:57:54,231 [main] TRACE es.ciudadescolar.util.TXTManager         - [205, Robert, De, Niro]
+2025-12-08 17:57:54,231 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-08 17:57:54,232 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-08 17:57:54,233 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:57:54,234 [main] TRACE es.ciudadescolar.util.TXTManager         - [207, Carl, Weathers]
+2025-12-08 17:57:54,235 [main] TRACE es.ciudadescolar.util.TXTManager         - [208, Burgess, Meredith]
+2025-12-08 17:57:54,235 [main] TRACE es.ciudadescolar.util.TXTManager         - [209, Talia, Shire]
+2025-12-08 17:57:54,236 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-08 17:57:54,236 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-08 17:57:54,237 [main] TRACE es.ciudadescolar.util.TXTManager         - [210, Alan, Rickman]
+2025-12-08 17:57:54,238 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:57:54,238 [main] TRACE es.ciudadescolar.util.TXTManager         - [212, Reginald, Veljohnson]
+2025-12-08 17:57:54,239 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:57:54,240 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis
+2025-12-08 17:57:54,240 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis]
+2025-12-08 17:57:54,241 [main] TRACE es.ciudadescolar.util.TXTManager         - [214, Jason, Statham]
+2025-12-08 17:57:54,241 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-08 17:57:54,242 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-08 17:57:54,243 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-08 17:57:54,243 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-08 17:57:54,244 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-08 17:57:54,245 [main] TRACE es.ciudadescolar.util.TXTManager         - [215, Harrison, Ford]
+2025-12-08 17:57:54,246 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-08 17:57:54,247 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino]
+2025-12-08 17:57:54,248 [main] TRACE es.ciudadescolar.Main                    - Actor [id=204, first_name=Marlon, last_name=Brando]
+2025-12-08 17:57:54,249 [main] TRACE es.ciudadescolar.Main                    - Actor [id=205, first_name=Robert, last_name=De]
+2025-12-08 17:57:54,249 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-08 17:57:54,250 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-08 17:57:54,250 [main] TRACE es.ciudadescolar.Main                    - Actor [id=207, first_name=Carl, last_name=Weathers]
+2025-12-08 17:57:54,251 [main] TRACE es.ciudadescolar.Main                    - Actor [id=208, first_name=Burgess, last_name=Meredith]
+2025-12-08 17:57:54,252 [main] TRACE es.ciudadescolar.Main                    - Actor [id=209, first_name=Talia, last_name=Shire]
+2025-12-08 17:57:54,252 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-08 17:57:54,253 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman]
+2025-12-08 17:57:54,254 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-08 17:57:54,254 [main] TRACE es.ciudadescolar.Main                    - Actor [id=212, first_name=Reginald, last_name=Veljohnson]
+2025-12-08 17:57:54,255 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-08 17:57:54,256 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-08 17:57:54,256 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham]
+2025-12-08 17:57:54,257 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-08 17:57:54,257 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-08 17:57:54,257 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-08 17:57:54,258 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-08 17:57:54,258 [main] TRACE es.ciudadescolar.Main                    - Actor [id=215, first_name=Harrison, last_name=Ford]
+2025-12-09 15:40:26,893 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-09 15:40:26,897 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-09 15:40:26,897 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-09 15:40:26,898 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-09 15:40:26,898 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-09 15:40:26,898 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-09 15:40:26,900 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-09 15:40:26,902 [main] TRACE es.ciudadescolar.util.TXTManager         - [204, Marlon, Brando]
+2025-12-09 15:40:26,903 [main] TRACE es.ciudadescolar.util.TXTManager         - [205, Robert, De, Niro]
+2025-12-09 15:40:26,903 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-09 15:40:26,906 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-09 15:40:26,907 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-09 15:40:26,909 [main] TRACE es.ciudadescolar.util.TXTManager         - [207, Carl, Weathers]
+2025-12-09 15:40:26,910 [main] TRACE es.ciudadescolar.util.TXTManager         - [208, Burgess, Meredith]
+2025-12-09 15:40:26,911 [main] TRACE es.ciudadescolar.util.TXTManager         - [209, Talia, Shire]
+2025-12-09 15:40:26,912 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-09 15:40:26,913 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-09 15:40:26,914 [main] TRACE es.ciudadescolar.util.TXTManager         - [210, Alan, Rickman]
+2025-12-09 15:40:26,914 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-09 15:40:26,915 [main] TRACE es.ciudadescolar.util.TXTManager         - [212, Reginald, Veljohnson]
+2025-12-09 15:40:26,916 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-09 15:40:26,916 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis
+2025-12-09 15:40:26,917 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis]
+2025-12-09 15:40:26,918 [main] TRACE es.ciudadescolar.util.TXTManager         - [214, Jason, Statham]
+2025-12-09 15:40:26,938 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-09 15:40:26,939 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-09 15:40:26,940 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-09 15:40:26,944 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-09 15:40:26,953 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-09 15:40:26,958 [main] TRACE es.ciudadescolar.util.TXTManager         - [215, Harrison, Ford]
+2025-12-09 15:40:26,959 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-09 15:40:26,960 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino]
+2025-12-09 15:40:26,961 [main] TRACE es.ciudadescolar.Main                    - Actor [id=204, first_name=Marlon, last_name=Brando]
+2025-12-09 15:40:26,961 [main] TRACE es.ciudadescolar.Main                    - Actor [id=205, first_name=Robert, last_name=De]
+2025-12-09 15:40:26,961 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-09 15:40:26,962 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-09 15:40:26,963 [main] TRACE es.ciudadescolar.Main                    - Actor [id=207, first_name=Carl, last_name=Weathers]
+2025-12-09 15:40:26,964 [main] TRACE es.ciudadescolar.Main                    - Actor [id=208, first_name=Burgess, last_name=Meredith]
+2025-12-09 15:40:26,965 [main] TRACE es.ciudadescolar.Main                    - Actor [id=209, first_name=Talia, last_name=Shire]
+2025-12-09 15:40:26,966 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-09 15:40:26,967 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman]
+2025-12-09 15:40:26,968 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-09 15:40:26,968 [main] TRACE es.ciudadescolar.Main                    - Actor [id=212, first_name=Reginald, last_name=Veljohnson]
+2025-12-09 15:40:26,969 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-09 15:40:26,969 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-09 15:40:26,970 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham]
+2025-12-09 15:40:26,978 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-09 15:40:26,979 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-09 15:40:26,979 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-09 15:40:26,979 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-09 15:40:26,980 [main] TRACE es.ciudadescolar.Main                    - Actor [id=215, first_name=Harrison, last_name=Ford]
+2025-12-09 16:51:01,930 [main] DEBUG es.ciudadescolar.util.DBManager          - Conexion establecida con exito
+2025-12-09 16:51:01,933 [main] TRACE es.ciudadescolar.util.TXTManager         - Gestor de txt inicializado con exito
+2025-12-09 16:51:01,934 [main] TRACE es.ciudadescolar.util.TXTManager         - film_id|title|release_year|language_id|rental_duration|rental_rate|replacement_cost|rating|actores(id-first_name last_name)
+2025-12-09 16:51:01,934 [main] TRACE es.ciudadescolar.util.TXTManager         - [film_id, title, release_year, language_id, rental_duration, rental_rate, replacement_cost, rating, actores(id-first_name last_name)]
+2025-12-09 16:51:01,935 [main] TRACE es.ciudadescolar.util.TXTManager         - [id, first_name, last_name]
+2025-12-09 16:51:01,935 [main] TRACE es.ciudadescolar.util.TXTManager         - 2000|El padrino|1972|2|5|3.50|16.95|G|203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro
+2025-12-09 16:51:01,935 [main] TRACE es.ciudadescolar.util.TXTManager         - [2000, El padrino, 1972, 2, 5, 3.50, 16.95, G, 203-Al Pacino, 204-Marlon Brando, 205-Robert De Niro]
+2025-12-09 16:51:01,936 [main] TRACE es.ciudadescolar.util.TXTManager         - [203, Al, Pacino]
+2025-12-09 16:51:01,937 [main] TRACE es.ciudadescolar.util.TXTManager         - [204, Marlon, Brando]
+2025-12-09 16:51:01,938 [main] TRACE es.ciudadescolar.util.TXTManager         - [205, Robert, De, Niro]
+2025-12-09 16:51:01,938 [main] TRACE es.ciudadescolar.util.TXTManager         - 2001|Rocky|1976|2|5|4.50|20.95|G|206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire
+2025-12-09 16:51:01,939 [main] TRACE es.ciudadescolar.util.TXTManager         - [2001, Rocky, 1976, 2, 5, 4.50, 20.95, G, 206-Sylvester Stallone, 207-Carl Weathers, 208-Burgess Meredith, 209-Talia Shire]
+2025-12-09 16:51:01,940 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-09 16:51:01,941 [main] TRACE es.ciudadescolar.util.TXTManager         - [207, Carl, Weathers]
+2025-12-09 16:51:01,942 [main] TRACE es.ciudadescolar.util.TXTManager         - [208, Burgess, Meredith]
+2025-12-09 16:51:01,942 [main] TRACE es.ciudadescolar.util.TXTManager         - [209, Talia, Shire]
+2025-12-09 16:51:01,943 [main] TRACE es.ciudadescolar.util.TXTManager         - 2002|Jungla de cristal|1988|2|5|6.50|15.95|G|210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis
+2025-12-09 16:51:01,944 [main] TRACE es.ciudadescolar.util.TXTManager         - [2002, Jungla de cristal, 1988, 2, 5, 6.50, 15.95, G, 210-Alan Rickman, 211-Bonnie Bedelia, 212-Reginald Veljohnson, 213-Bruce Willis]
+2025-12-09 16:51:01,945 [main] TRACE es.ciudadescolar.util.TXTManager         - [210, Alan, Rickman]
+2025-12-09 16:51:01,945 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-09 16:51:01,946 [main] TRACE es.ciudadescolar.util.TXTManager         - [212, Reginald, Veljohnson]
+2025-12-09 16:51:01,947 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-09 16:51:01,947 [main] TRACE es.ciudadescolar.util.TXTManager         - 2003|Los mercenarios 2|2012|2|5|2.50|12.95|G|214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis
+2025-12-09 16:51:01,948 [main] TRACE es.ciudadescolar.util.TXTManager         - [2003, Los mercenarios 2, 2012, 2, 5, 2.50, 12.95, G, 214-Jason Statham, 206-Sylvester Stallone, 213-Bruce Willis]
+2025-12-09 16:51:01,949 [main] TRACE es.ciudadescolar.util.TXTManager         - [214, Jason, Statham]
+2025-12-09 16:51:01,950 [main] TRACE es.ciudadescolar.util.TXTManager         - [206, Sylvester, Stallone]
+2025-12-09 16:51:01,951 [main] TRACE es.ciudadescolar.util.TXTManager         - [213, Bruce, Willis]
+2025-12-09 16:51:01,952 [main] TRACE es.ciudadescolar.util.TXTManager         - 2004|Presunto inocente|1990|2|5|1.50|10.95|G|211-Bonnie Bedelia,215-Harrison Ford
+2025-12-09 16:51:01,952 [main] TRACE es.ciudadescolar.util.TXTManager         - [2004, Presunto inocente, 1990, 2, 5, 1.50, 10.95, G, 211-Bonnie Bedelia,215-Harrison Ford]
+2025-12-09 16:51:01,953 [main] TRACE es.ciudadescolar.util.TXTManager         - [211, Bonnie, Bedelia]
+2025-12-09 16:51:01,955 [main] TRACE es.ciudadescolar.util.TXTManager         - [215, Harrison, Ford]
+2025-12-09 16:51:01,957 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2000, title=El padrino]
+2025-12-09 16:51:01,959 [main] TRACE es.ciudadescolar.Main                    - Actor [id=203, first_name=Al, last_name=Pacino]
+2025-12-09 16:51:01,960 [main] TRACE es.ciudadescolar.Main                    - Actor [id=204, first_name=Marlon, last_name=Brando]
+2025-12-09 16:51:01,960 [main] TRACE es.ciudadescolar.Main                    - Actor [id=205, first_name=Robert, last_name=De]
+2025-12-09 16:51:01,961 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2001, title=Rocky]
+2025-12-09 16:51:01,962 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-09 16:51:01,963 [main] TRACE es.ciudadescolar.Main                    - Actor [id=207, first_name=Carl, last_name=Weathers]
+2025-12-09 16:51:01,964 [main] TRACE es.ciudadescolar.Main                    - Actor [id=208, first_name=Burgess, last_name=Meredith]
+2025-12-09 16:51:01,965 [main] TRACE es.ciudadescolar.Main                    - Actor [id=209, first_name=Talia, last_name=Shire]
+2025-12-09 16:51:01,965 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2002, title=Jungla de cristal]
+2025-12-09 16:51:01,966 [main] TRACE es.ciudadescolar.Main                    - Actor [id=210, first_name=Alan, last_name=Rickman]
+2025-12-09 16:51:01,967 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-09 16:51:01,967 [main] TRACE es.ciudadescolar.Main                    - Actor [id=212, first_name=Reginald, last_name=Veljohnson]
+2025-12-09 16:51:01,967 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-09 16:51:01,968 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2003, title=Los mercenarios 2]
+2025-12-09 16:51:01,969 [main] TRACE es.ciudadescolar.Main                    - Actor [id=214, first_name=Jason, last_name=Statham]
+2025-12-09 16:51:01,970 [main] TRACE es.ciudadescolar.Main                    - Actor [id=206, first_name=Sylvester, last_name=Stallone]
+2025-12-09 16:51:01,970 [main] TRACE es.ciudadescolar.Main                    - Actor [id=213, first_name=Bruce, last_name=Willis]
+2025-12-09 16:51:01,971 [main] TRACE es.ciudadescolar.Main                    - Peliculas [film_id=2004, title=Presunto inocente]
+2025-12-09 16:51:01,972 [main] TRACE es.ciudadescolar.Main                    - Actor [id=211, first_name=Bonnie, last_name=Bedelia]
+2025-12-09 16:51:01,972 [main] TRACE es.ciudadescolar.Main                    - Actor [id=215, first_name=Harrison, last_name=Ford]
+2025-12-09 16:51:01,977 [main] DEBUG es.ciudadescolar.util.DBManager          - Conexion cerrada satisfactoriamente

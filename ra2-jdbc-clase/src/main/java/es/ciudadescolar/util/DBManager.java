@@ -4,7 +4,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -104,5 +106,51 @@ public class DBManager {
             }
         }
         return alumnos;
+    }
+
+    public boolean altaAlumnosTransaction(List<Alumno> alumnos) {
+        boolean status = false;
+        if (connection != null) {
+            PreparedStatement psAltaAlumno = null;
+            try {
+                psAltaAlumno = connection.prepareStatement("ALTA ALUMNO");
+                connection.setAutoCommit(false);// Importante no olvidarse de hacer el commit o rollback
+                for (Alumno a : alumnos) {
+                    psAltaAlumno.setInt(1, a.getExpediente());
+                    psAltaAlumno.setString(2, a.getNombre());
+                    psAltaAlumno.setDate(3, Date.valueOf(a.getFecha_nac()));
+
+                    // psAltaAlumno.execute() se usa para consultas
+                    // psAltaAlumno.executeUpdate(); se usa para update, delete, e insert
+                    psAltaAlumno.executeUpdate();
+
+                    // Sirve para evitar errores cuando se insertan parametros en bucle
+                    psAltaAlumno.clearParameters();
+                    // Como queremos reutilizar nos aseguramos que borre parametros de
+                    // interacionnprevia
+                }
+                connection.commit();
+                status = true;
+                log.debug("Se procede a confirmar la transaccion");
+            } catch (SQLException e) {
+                log.error("Error durante el alta de alumnos de forma transaccional" + e.getMessage());
+                try {
+                    connection.rollback();
+                    log.debug("Rollback realizado con exito");
+                } catch (SQLException e1) {
+                    log.error("Error haciendo rollback de la transaccion" + e.getMessage());
+                }
+            } finally {
+                if (psAltaAlumno != null) {
+                    try {
+                        psAltaAlumno.close();
+                        connection.setAutoCommit(true);
+                    } catch (SQLException e) {
+                        log.error("Error durante la liberacion de recursos en el alta transaccional"+ e.getMessage());
+                    }
+                }
+            }
+        }
+        return status;
     }
 }
