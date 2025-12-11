@@ -1,6 +1,6 @@
 package es.ciudadescolar.global;
 
-public class Constantes {
+public class ConstantesTXT {
 
     public static final String FILM_ID = "film_id";
     public static final String TITLE = "title";

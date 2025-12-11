@@ -27,8 +27,11 @@ public class Main {
                 log.trace(a.toString());
             }
         }
-
-        
+        Actor a = new Actor();
+        a.setId(null);
+        a.setFirst_name("Pedro");
+        a.setLast_name("Ayarra");
+        db.insertarActores(a);
         // TODO: programa
 
         db.cerrarDB();

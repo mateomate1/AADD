@@ -13,6 +13,7 @@ import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import es.ciudadescolar.SQL.QUERYS;
 import es.ciudadescolar.models.Actor;
 import es.ciudadescolar.models.Pelicula;
 
@@ -57,7 +58,7 @@ public class DBManager {
         return false;
     }
 
-    private boolean startTransaction(){
+    private boolean startTransaction() {
         try {
             c.setAutoCommit(false);
             return true;
@@ -67,7 +68,7 @@ public class DBManager {
         }
     }
 
-    private boolean endTransaction(){
+    private boolean endTransaction() {
         try {
             c.setAutoCommit(true);
             return true;
@@ -77,7 +78,7 @@ public class DBManager {
         }
     }
 
-    private boolean commit(){
+    private boolean commit() {
         try {
             c.commit();
             return true;
@@ -87,7 +88,7 @@ public class DBManager {
         }
     }
 
-    private boolean rollback(){
+    private boolean rollback() {
         try {
             c.rollback();
             return true;
@@ -97,7 +98,7 @@ public class DBManager {
         }
     }
 
-    public boolean insertPeliculas(List<Pelicula> peliculas) {
+    public boolean insertPeliculas(Pelicula pelicul) {
         boolean status = false;
 
         try {
@@ -107,19 +108,65 @@ public class DBManager {
             // 2.b Si esta insertado el actor siguiente paso
             // 3. Insertar pelicula
             // 4. Insertar peliculas y actores en la tabla film_actor
-            
+
+            // film_id, title, language_id, rental_duration, rental_rate, replacement_cost,
+            // last_update
             c.setAutoCommit(true);
         } catch (SQLException e) {
 
-            //TODO: Gestionar
+            // TODO: Gestionar
             log.error("Error guardando las peliculas o los actores");
         }
         return status;
     }
 
-    public boolean insertarActores(List<Actor> actores) {
+    public boolean insertarActores(Actor actor) {
         boolean status = false;
+        PreparedStatement psAltaActor = null;
+        if (c != null) {
+            try {
+                psAltaActor = c.prepareStatement(QUERYS.INSERT_ACTOR);
+                // actor_id, first_name, last_name
+                if(actor.getId() == null)
+                    psAltaActor.setNull(1, java.sql.Types.INTEGER);
+                else
+                    psAltaActor.setInt(1, actor.getId());
+                psAltaActor.setString(2, actor.getFirst_name());
+                psAltaActor.setString(3, actor.getLast_name());
+                status = true;
+                if(psAltaActor.executeUpdate() == 1){
+                    log.debug("Actor insertado con exito");
+                }
+            } catch (SQLException e) {
+                log.error("Error insertando actor[" + actor + "]");
+            }
+        }
+        return status;
+    }
 
+    public boolean insertarActor(Actor actor) {
+        boolean status = false;
+        PreparedStatement psAltaActor = null;
+        if (c != null) {
+            try {
+                psAltaActor = c.prepareStatement(QUERYS.INSERT_ACTOR);
+                //psAltaActor = c.prepareStatement(QUERYS.INSERT_ACTOR(actor));
+                psAltaActor = c.prepareStatement(actor.INSERT());
+                // actor_id, first_name, last_name
+                if(actor.getId() == null)
+                    psAltaActor.setNull(1, java.sql.Types.INTEGER);
+                else
+                    psAltaActor.setInt(1, actor.getId());
+                psAltaActor.setString(2, actor.getFirst_name());
+                psAltaActor.setString(3, actor.getLast_name());
+                if(psAltaActor.executeUpdate() == 1){
+                    log.debug("Actor insertado con exito");
+                    status = true;
+                }
+            } catch (SQLException e) {
+                log.error("Error insertando actor[" + actor + "]");
+            }
+        }
         return status;
     }
 

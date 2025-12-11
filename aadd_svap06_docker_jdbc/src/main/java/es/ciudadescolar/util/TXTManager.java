@@ -12,7 +12,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import es.ciudadescolar.global.Constantes;
+import es.ciudadescolar.global.ConstantesTXT;
 import es.ciudadescolar.models.Actor;
 import es.ciudadescolar.models.Pelicula;
 
@@ -69,23 +69,23 @@ public class TXTManager {
                         || pRating == null
                         || pActores == null) {
                     for (int i = 0; i < datos.length; i++) {
-                        if (datos[i].toLowerCase().equals(Constantes.FILM_ID)) {
+                        if (datos[i].toLowerCase().equals(ConstantesTXT.FILM_ID)) {
                             pFilmID = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.TITLE)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.TITLE)) {
                             pTitle = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.RELEASE_YEAR)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.RELEASE_YEAR)) {
                             pReleaseYear = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.LANGUAGE_ID)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.LANGUAGE_ID)) {
                             pLanguageID = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.RENTAL_DURATION)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.RENTAL_DURATION)) {
                             pRentalDuration = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.RENTAL_RATE)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.RENTAL_RATE)) {
                             pRentalRate = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.REPLACEMENT_COST)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.REPLACEMENT_COST)) {
                             pReplacementCost = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.RATING)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.RATING)) {
                             pRating = i;
-                        } else if (datos[i].toLowerCase().startsWith(Constantes.ACTORES)) {
+                        } else if (datos[i].toLowerCase().startsWith(ConstantesTXT.ACTORES)) {
                             pActores = i;
                             int inicio = datos[i].indexOf("(");
                             int fin = datos[i].indexOf(")");
@@ -95,22 +95,22 @@ public class TXTManager {
                                     || pActorFirstName == null
                                     || pActorLastName == null) {
                                 for (int j = 0; j < datosActores.length; j++) {
-                                    if (datosActores[j].toLowerCase().equals(Constantes.ACTOR_ID)) {
+                                    if (datosActores[j].toLowerCase().equals(ConstantesTXT.ACTOR_ID)) {
                                         pActorID = j;
-                                    } else if (datosActores[j].toLowerCase().equals(Constantes.ACTOR_FIRST_NAME)) {
+                                    } else if (datosActores[j].toLowerCase().equals(ConstantesTXT.ACTOR_FIRST_NAME)) {
                                         pActorFirstName = j;
-                                    } else if (datosActores[j].toLowerCase().equals(Constantes.ACTOR_LAST_NAME)) {
+                                    } else if (datosActores[j].toLowerCase().equals(ConstantesTXT.ACTOR_LAST_NAME)) {
                                         pActorLastName = j;
                                     } else {
                                         log.warn("No corresponde a ninguno de los datos buscados");
                                     }
                                 }
                             }
-                        } else if (datos[i].toLowerCase().equals(Constantes.ACTOR_ID)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.ACTOR_ID)) {
                             pActorID = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.ACTOR_FIRST_NAME)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.ACTOR_FIRST_NAME)) {
                             pActorFirstName = i;
-                        } else if (datos[i].toLowerCase().equals(Constantes.ACTOR_LAST_NAME)) {
+                        } else if (datos[i].toLowerCase().equals(ConstantesTXT.ACTOR_LAST_NAME)) {
                             pActorLastName = i;
                         } else {
                             log.warn("No corresponde a ninguno de los datos buscados");

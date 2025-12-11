@@ -7,12 +7,28 @@
             },
             "ssh": "Disabled",
             "previewLimit": 50,
-            "server": "54.85.234.143",
+            "server": "44.208.14.149",
             "port": 3306,
             "driver": "MySQL",
-            "name": "SakilaAWS",
+            "name": "Admin_SakilaAWS",
             "database": "sakila",
-            "username": "root"
+            "username": "root",
+            "password": "root2526"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "44.208.14.149",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "User_SakilaAWS",
+            "database": "sakila",
+            "username": "alumno",
+            "password": "dam1"
         },
         {
             "mysqlOptions": {
@@ -26,7 +42,8 @@
             "driver": "MySQL",
             "name": "localhost",
             "database": "sakila",
-            "username": "root"
+            "username": "root",
+            "password": "root"
         }
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
