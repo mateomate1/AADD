@@ -98,7 +98,7 @@ public class DBManager {
         }
     }
 
-    public boolean insertPeliculas(Pelicula pelicul) {
+    public boolean insertPeliculas(List<Pelicula> pelicula) {
         boolean status = false;
 
         try {
@@ -114,32 +114,45 @@ public class DBManager {
             c.setAutoCommit(true);
         } catch (SQLException e) {
 
-            // TODO: Gestionar
             log.error("Error guardando las peliculas o los actores");
         }
         return status;
     }
 
-    public boolean insertarActores(Actor actor) {
+    public boolean insertPelicula(Pelicula pelicula) {
+        boolean status = false;
+
+        PreparedStatement psAltaPelicula = null;
+        if (c != null) {
+            try {
+                psAltaPelicula = c.prepareStatement(QUERYS.INSERT_FILM);
+                if(pelicula.getFilm_id() == null)
+                    psAltaPelicula.setNull(1, java.sql.Types.INTEGER);
+                else
+                    psAltaPelicula.setInt(1, pelicula.getFilm_id());
+                psAltaPelicula.setString(2, pelicula.getTitle());
+                psAltaPelicula.setInt(3, pelicula.getLanguage_id());
+                psAltaPelicula.setInt(4, pelicula.getRental_duration());
+                psAltaPelicula.setDouble(5, pelicula.getRental_rate());
+                psAltaPelicula.setDouble(6, pelicula.getReplacement_cost());
+                for (Actor a : pelicula.getActores()) {
+                    if(a.equals(getActor(a))){
+
+                    }
+                }
+            } catch (SQLException e) {
+
+                log.error("Error guardando las peliculas o los actores");
+            }
+        }
+        return status;
+    }
+
+    public boolean insertarActores(List<Actor> actor) {
         boolean status = false;
         PreparedStatement psAltaActor = null;
         if (c != null) {
-            try {
-                psAltaActor = c.prepareStatement(QUERYS.INSERT_ACTOR);
-                // actor_id, first_name, last_name
-                if(actor.getId() == null)
-                    psAltaActor.setNull(1, java.sql.Types.INTEGER);
-                else
-                    psAltaActor.setInt(1, actor.getId());
-                psAltaActor.setString(2, actor.getFirst_name());
-                psAltaActor.setString(3, actor.getLast_name());
-                status = true;
-                if(psAltaActor.executeUpdate() == 1){
-                    log.debug("Actor insertado con exito");
-                }
-            } catch (SQLException e) {
-                log.error("Error insertando actor[" + actor + "]");
-            }
+
         }
         return status;
     }
@@ -150,16 +163,15 @@ public class DBManager {
         if (c != null) {
             try {
                 psAltaActor = c.prepareStatement(QUERYS.INSERT_ACTOR);
-                //psAltaActor = c.prepareStatement(QUERYS.INSERT_ACTOR(actor));
-                psAltaActor = c.prepareStatement(actor.INSERT());
+                // psAltaActor = c.prepareStatement(QUERYS.INSERT_ACTOR(actor));
                 // actor_id, first_name, last_name
-                if(actor.getId() == null)
+                if (actor.getId() == null)
                     psAltaActor.setNull(1, java.sql.Types.INTEGER);
                 else
                     psAltaActor.setInt(1, actor.getId());
                 psAltaActor.setString(2, actor.getFirst_name());
                 psAltaActor.setString(3, actor.getLast_name());
-                if(psAltaActor.executeUpdate() == 1){
+                if (psAltaActor.executeUpdate() == 1) {
                     log.debug("Actor insertado con exito");
                     status = true;
                 }
@@ -170,9 +182,14 @@ public class DBManager {
         return status;
     }
 
-    public boolean getActor(String id, String nombre, String apellido) {
-        boolean status = false;
+    public Actor getActor(Actor a){
+        
+        return null;
+    }
 
+    public boolean existsActor(Actor a){
+        boolean status = false;
+        
         return status;
     }
 

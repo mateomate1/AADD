@@ -47,17 +47,34 @@ public class Actor {
         return "Actor [id=" + id + ", first_name=" + first_name + ", last_name=" + last_name + "]";
     }
 
-    public String INSERT() {
-        String salida = "";
-        String cabecera = "INSERT INTO actor(";
-        String film_id = getId() != null ? "film_id, " : "";
-        String first_name = "first_name, ";
-        String last_name = "last_name ";
-        String values = ") VALUES(";
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((first_name == null) ? 0 : first_name.hashCode());
+        result = prime * result + ((last_name == null) ? 0 : last_name.hashCode());
+        return result;
+    }
 
-        salida = cabecera + film_id + first_name + last_name + values + getId() != null ? getId().toString()
-                : "" + getFirst_name() + getLast_name();
-
-        return salida;
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Actor other = (Actor) obj;
+        if (first_name == null) {
+            if (other.first_name != null)
+                return false;
+        } else if (!first_name.equals(other.first_name))
+            return false;
+        if (last_name == null) {
+            if (other.last_name != null)
+                return false;
+        } else if (!last_name.equals(other.last_name))
+            return false;
+        return true;
     }
 }

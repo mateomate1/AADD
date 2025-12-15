@@ -13,7 +13,8 @@ import es.ciudadescolar.util.TXTManager;
 public class Main {
     private static final Logger log = LoggerFactory.getLogger(Main.class);
     private static final String TxtPath = "nuevas_pelis.txt";
-    //private static final String PROPERTIES = "BBDD_AWS.properties";
+    //private static final String PROPERTIES = "BBDD_AWS_ADMINISTRATOR.properties";
+    //private static final String PROPERTIES = "BBDD_AWS_ALUMNO.properties";
     private static final String PROPERTIES = "BBDD_local.properties";
 
     public static void main(String[] args) {
@@ -28,10 +29,9 @@ public class Main {
             }
         }
         Actor a = new Actor();
-        a.setId(null);
-        a.setFirst_name("Pedro");
+        a.setFirst_name("Mateo");
         a.setLast_name("Ayarra");
-        db.insertarActores(a);
+        db.insertarActor(a);
         // TODO: programa
 
         db.cerrarDB();
