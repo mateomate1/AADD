@@ -13,7 +13,7 @@
 
 		<!-- Aquí debemos indicar las clases a persistir que dispondrán de las correspondientes
 		anotiaciones JPA -->
-		<class>es.ciudadescolar.Instituto.Alumno</class>
+		<class>es.ciudadescolar.instituto.Alumno</class>
 
 
 		<properties>
