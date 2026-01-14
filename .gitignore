@@ -6,3 +6,5 @@ bin/
 # Archivos del sistema operativo
 Thumbs.db
 .DS_Store
+#Database
+.db
