@@ -13,20 +13,26 @@ Este proyecto utiliza una **Arquitectura de capas** profesional para interactuar
 En este nuevo proyecto se introduce el concepto de **relación entre entidades**. Concretamente el proyecto va evolucionando añadiendo las distintas relaciones existentes. En cada escenarios se creará un `tag` (etiqueta) para poder hacer checkout cuando necesitemos recuperar un escenario concreto.
 
 1) **relación 1:1 unidireccional**: entre una entidad fuerte como es Alumno y una entidad debil como es Direccion. La dirección no tiene sentido sin el alumno al que acompaña y por ese motivo, nunca accederemos a una dirección directamente, siempre lo haremos desde el alumno (la unidireccionalidad va desde `Alumno` a `Direccion`). Nunca crearemos un DAO ni un SERVICE asociado a una entidad débil dado que jamás guardaremos una dirección aislada en nuestra BD ni tendremos lógica propia para una dirección.
-2) **relación 1:1 bidireccional**: entre entidades fuertes como es Alumno y Expediente. En este caso, tanto `Alumno` como `ExpedienteAcademico` tienen vida propia independiente y tendrán cada uno su lógica propia. Así que debemos poder acceder al alumno desde expediente y al expediente desde el alumno. Ambos son susceptibles de tener por tanto su propio DAO y SERVICE.
-3) **relación 1:N unidireccional**: entre entidades fuertes como es Alumno y Examen. En este caso, tanto `Alumno` como `Examen` tienen vida propia independiente y tendrán cada uno su lógica propia pero en este caso podríamos considerar sólo necesario implementar la unidireccionalidad entre Alumno y Examen, es decir, desde alumno poder recuperar todos sus exámenes.
+2) **relación 1:1 bidireccional**: entre entidades fuertes como es Alumno y Expediente. En este caso, tanto `Alumno` como `Expediente` tienen vida propia independiente y tendrán cada uno su lógica propia. Así que debemos poder acceder al alumno desde expediente y al expediente desde el alumno. Ambos son susceptibles de tener por tanto su propio DAO y SERVICE.
+3) ~~**relación 1:N unidireccional**: entre entidades fuertes como es Alumno y Examen. En este caso, tanto `Alumno` como `Examen` tienen vida propia independiente y tendrán cada uno su lógica propia pero en este caso podríamos considerar sólo necesario implementar la unidireccionalidad entre Alumno y Examen, es decir, desde alumno poder recuperar todos sus exámenes.~~
+
+   ```text
+   Actualización: como es un escenario poco utilizado, no veremos la implementación. 
+   Si alguien está interesado que me contacte personalmente.
+   ```
+
 4) **relación 1:N bidireccional**: entre las mismas entidades fuertes `Alumno` como `Examen`. En este caso podríamos considerar necesario implementar la bidireccionalidad, es decir, desde alumno poder recuperar todos sus exámenes y desde cada examen poder recuperar el alumno que lo hizo.
-5) **relación N:M bidireccional** SIN atributos: entre entidades fuertes como Alumno y Modulo. En este caso, tanto `Alumno` como `Modulo` tienen vida propia independiente y tendrán cada uno su lógica propia. Cuando hay N:M siempre se suele implementar la bidireccionalidad. Es decir, desde alumno poder recuperar todos los módulos en los que está matriculado y desde cada módulo poder recuperar todos los alumnos matriculados.
-6) **relación N:M bidireccional** CON atributos: entre las mismas entidades fuertes  `Alumno` como `Modulo`. Mismos escenario de antes salvo que en la relación hay uno o varios atributos. Por ejemplo la nota final que saca un alumno concreto en un módulo concreto.
+5) **relación N:M bidireccional SIN atributos**: entre entidades fuertes como Alumno y Modulo. En este caso, tanto `Alumno` como `Modulo` tienen vida propia independiente y tendrán cada uno su lógica propia. Cuando hay N:M siempre se suele implementar la bidireccionalidad. Es decir, desde alumno poder recuperar todos los módulos en los que está matriculado y desde cada módulo poder recuperar todos los alumnos matriculados. Por no hacer más complejo el modelo y tener que modificar además la lógica de los servicios existentes, no se relaciona Examen con Modulo (aunque se debería).
+6) **relación N:M bidireccional CON atributos**: entre las mismas entidades fuertes  `Alumno` como `Modulo`. Mismos escenario de antes salvo que en la relación hay uno o varios atributos por lo que aparece una nueva entidad `Matricula` con su correspondiente DAO y Servicio. El atributo de la relación será la nota final que saca un alumno concreto en un módulo concreto.
 
 ## Versiones del proyecto (TAGs)
 
 - **v1.0-1to1-unidir** → Alumno ── 1:1 ── Direccion (unidireccional)
 - **v1.1-1to1-bidir**  → Alumno ── 1:1 ── ExpedienteAcademico (bidireccional)
-- **v2.0-1toN-unidir** → Alumno ── 1:N ── Examen (unidireccional)
+- ~~**v2.0-1toN-unidir** → Alumno ── 1:N ── Examen (unidireccional)~~
 - **v2.1-1toN-bidir**  → Alumno ── 1:N ── Examen (bidireccional)
 - **v3.0-NtoM-bidir**  → Alumno ── N:N ── Modulo (bidireccional)
-- **v3.0-NtoM-bidir-atrib**  → Alumno ── N:N ── Modulo (bidireccional)
+- **v3.1-NtoM-bidir-atrib**  → Alumno ── 1:N ── Matricula ── N:1 ── Modulo (bidireccional)
 
 ## Operativa básica con TAGs
 

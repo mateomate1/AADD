@@ -1,9 +1,18 @@
 package es.ciudadescolar;
 
+import java.time.LocalDate;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import es.ciudadescolar.dominio.modelo.ClaveMatricula;
+import es.ciudadescolar.dominio.modelo.Examen;
 import es.ciudadescolar.servicios.AlumnoServicio;
+import es.ciudadescolar.servicios.ExamenServicio;
+import es.ciudadescolar.servicios.ExpedienteServicio;
+import es.ciudadescolar.servicios.MatriculaServicio;
+import es.ciudadescolar.servicios.ModuloServicio;
 import es.ciudadescolar.util.JPAUtil;
 
 /**
@@ -27,21 +36,71 @@ public class Main
         LOG.debug ("Inicio de aplicación");
         try 
         {
-            AlumnoServicio service = new AlumnoServicio();
-            // Al acceder por primera vez a cualquier método estático, Java inicializa los campos estáticos.
-            // Por tanto el EntityManagerFactory de JPAUtil se instanciará cuando el service haga JPAUtil.getEntityManager() por primera vez.
-            service.registrarAlumno("Anchón García", "agarcia@ciudadescolar.es");
-
-            service.registrarAlumno("María Fernández", "mfernandez@ciudadescolar.es");
+            AlumnoServicio alumnoService = new AlumnoServicio();
+            ExamenServicio examenService = new ExamenServicio();
 
             // relación 1:1 unidireccional
-            Long idAlumno  = service.registrarAlumnoConDireccion("Paco Sanz", "psanz@ciudadescolar.es", "Avda. Miraflores", 33);
+            Long idAlumno  = alumnoService.registrarAlumnoConDireccion("Paco Sanz", "psanz@ciudadescolar.es", "Avda. Miraflores", 33);
             if (idAlumno != null && idAlumno > -1L )
             {
-                service.cambiarDireccionAlumno(idAlumno, "Calle Goya", 198);
+                alumnoService.cambiarDireccionAlumno(idAlumno, "Calle Goya", 198);
             
-                service.darBajaAlumno(idAlumno);
+                // relación 1:1 bidireccional puedo acceder desde expediente a alumno y viceversa
+                ExpedienteServicio expedienteService = new ExpedienteServicio();
+                Long idExpediente = expedienteService.crearExpediente(idAlumno);
+
+                // al ser bidir, puedo acceder desde alumno a expediente
+                alumnoService.mostrarNombreAlumnoConExpediente(idAlumno);
+                
+                // al ser bidir, puedo también acceder desde expediente a alumno
+                if (!idExpediente.equals(Long.valueOf(-1L)))
+                    expedienteService.mostrarExpedienteConNombreAlumno(idExpediente);
+
+                Long idExamen1 =alumnoService.aniadirExamenAAlumno(idAlumno, "Acceso a Datos", LocalDate.of(2026,2,25), Double.valueOf(7.7));
+                alumnoService.aniadirExamenAAlumno(idAlumno, "Desarrollo de Interfaces", LocalDate.of(2026,2,25), Double.valueOf(2.5));
+                alumnoService.aniadirExamenAAlumno(idAlumno, "Programación de Servicios y Procesos", LocalDate.of(2026,2,23), Double.valueOf(5.2));
+                
+                // al ser bidir, puedo acceder desde alumno a examen
+                alumnoService.mostrarNombreAlumnoConExamenes(idAlumno);
+
+                // al ser bidir, puedo acceder desde examen a alumno
+                if (idExamen1 != null && !idExamen1.equals(Long.valueOf(-1L)))
+                {
+                       examenService.mostrarExamenConNombreAlumno(idExamen1);
+                        // tras la revisión, se decide cambiar la nota del examen...
+                       examenService.modificarNota(idExamen1, Double.valueOf(8.1));
+                }
             }
+
+            // Como entidad fuerte, puede que sólo necesite aplicar lógica sobre exámenes (de forma independiente de los alumnos),
+            // por ejemplo...
+            List<Examen> aprobados = examenService.recuperaExamenesAprobados();
+                LOG.info("Examenes aprobados:");
+                for (Examen e:aprobados)
+                {
+                    LOG.info(e.toString());
+                }
+            
+            List<Examen> suspensos = examenService.recuperaExamenesSuspensos();
+                LOG.info("Examenes suspensos:");
+                for (Examen e:suspensos)
+                {
+                    LOG.info(e.toString());
+                }
+
+
+            // relación N:M bidireccional entre Alumno y Modulo (con atributo en relación)
+            ModuloServicio moduloService = new ModuloServicio();
+            Long idModNuevo = moduloService.crearModulo(489L, "1º", "Programación");
+            
+            MatriculaServicio matriculaService = new MatriculaServicio();
+
+            if (idAlumno != null && idAlumno > -1L && idModNuevo != null && idModNuevo > -1L)
+            {
+                 ClaveMatricula cm = matriculaService.crearMatricula(idAlumno, idModNuevo);
+                 if (cm != null)
+                    matriculaService.fijarNota(cm, 8.75);
+            }   
         }
         catch (Exception e)
         {
