@@ -14,7 +14,10 @@
 <!-- Aquí debemos indicar las clases a persistir que dispondrán de las correspondientes anotiaciones JPA -->
 <class>es.ciudadescolar.dominio.modelo.Alumno</class>
 <class>es.ciudadescolar.dominio.modelo.Direccion</class>
+<class>es.ciudadescolar.dominio.modelo.Expediente</class>
 <class>es.ciudadescolar.dominio.modelo.Examen</class>
+<class>es.ciudadescolar.dominio.modelo.Modulo</class>
+<class>es.ciudadescolar.dominio.modelo.Matricula</class>
 
 <properties>
 
