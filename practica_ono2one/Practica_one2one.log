@@ -1,0 +1,278 @@
+2026-02-20 14:54:38,491 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-20 14:54:38,514 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-20 14:54:38,667 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-20 14:54:38,707 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-20 14:54:39,497 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-20 14:54:40,316 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 14:54:40,376 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m perfil 
+       modify [34mcolumn[0m id_perfil [34minteger[0m [34mnot[0m [34mnull[0m auto_increment
+2026-02-20 14:54:40,428 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m perfil 
+       modify [34mcolumn[0m password_hash [34mvarchar[0m(255) [34mnot[0m [34mnull[0m
+2026-02-20 14:54:40,461 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m perfil 
+       modify [34mcolumn[0m username [34mvarchar[0m(255) [34mnot[0m [34mnull[0m
+2026-02-20 14:54:40,490 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m perfil 
+       modify [34mcolumn[0m usuario [34minteger[0m [34mnot[0m [34mnull[0m
+2026-02-20 14:54:40,497 [main] WARN  o.h.t.schema.internal.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table perfil 
+       modify column usuario integer not null" via JDBC [Referencing column 'usuario' and referenced column 'id_usuario' in foreign key constraint 'fk_perfil_usuario' are incompatible.]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table perfil 
+       modify column usuario integer not null" via JDBC [Referencing column 'usuario' and referenced column 'id_usuario' in foreign key constraint 'fk_perfil_usuario' are incompatible.]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:81)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:566)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:506)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:324)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:269)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:437)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1456)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:57)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+	at com.example.util.JPAUtil.<clinit>(JPAUtil.java:17)
+	at com.example.Main.main(Main.java:14)
+Caused by: java.sql.SQLException: Referencing column 'usuario' and referenced column 'id_usuario' in foreign key constraint 'fk_perfil_usuario' are incompatible.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:76)
+	... 21 common frames omitted
+2026-02-20 14:54:40,499 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m usuario 
+       modify [34mcolumn[0m id_usuario [34minteger[0m [34mnot[0m [34mnull[0m auto_increment
+2026-02-20 14:54:40,501 [main] WARN  o.h.t.schema.internal.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table usuario 
+       modify column id_usuario integer not null auto_increment" via JDBC [Referencing column 'usuario' and referenced column 'id_usuario' in foreign key constraint 'fk_perfil_usuario' are incompatible.]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table usuario 
+       modify column id_usuario integer not null auto_increment" via JDBC [Referencing column 'usuario' and referenced column 'id_usuario' in foreign key constraint 'fk_perfil_usuario' are incompatible.]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:81)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:566)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:506)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:324)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:269)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:437)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1456)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:57)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+	at com.example.util.JPAUtil.<clinit>(JPAUtil.java:17)
+	at com.example.Main.main(Main.java:14)
+Caused by: java.sql.SQLException: Referencing column 'usuario' and referenced column 'id_usuario' in foreign key constraint 'fk_perfil_usuario' are incompatible.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:76)
+	... 21 common frames omitted
+2026-02-20 14:54:40,502 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m usuario 
+       modify [34mcolumn[0m apellidos [34mvarchar[0m(255) [34mnot[0m [34mnull[0m
+2026-02-20 14:54:40,513 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m usuario 
+       modify [34mcolumn[0m email [34mvarchar[0m(255) [34mnot[0m [34mnull[0m
+2026-02-20 14:54:40,522 [main] DEBUG org.hibernate.SQL                        - 
+    [34malter[0m [34mtable[0m usuario 
+       modify [34mcolumn[0m nombre [34mvarchar[0m(255) [34mnot[0m [34mnull[0m
+2026-02-20 14:54:40,550 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-20 14:58:59,625 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-20 14:58:59,650 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-20 14:58:59,797 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-20 14:58:59,833 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-20 14:59:00,510 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-20 14:59:01,290 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 14:59:17,777 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-20 14:59:17,800 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-20 14:59:17,951 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-20 14:59:17,988 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-20 14:59:18,622 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-20 14:59:19,357 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 14:59:31,217 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-20 14:59:31,241 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-20 14:59:31,391 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-20 14:59:31,427 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-20 14:59:32,060 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-20 14:59:32,781 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 15:01:11,916 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-20 15:01:11,938 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-20 15:01:12,089 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-20 15:01:12,131 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-20 15:01:12,776 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-20 15:01:13,562 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 15:01:13,601 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-20 15:01:38,041 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-20 15:01:38,063 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-20 15:01:38,215 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-20 15:01:38,250 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-20 15:01:38,888 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-20 15:01:39,614 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 15:01:39,656 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-20 15:03:58,419 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-20 15:03:58,443 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-20 15:03:58,597 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-20 15:03:58,632 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-20 15:03:59,291 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-20 15:04:00,046 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 15:04:00,096 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-20 15:04:00,173 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        usuario
+        (apellidos, email, fecha_nacimiento, nombre) 
+    [34mvalues[0m
+        (?, ?, ?, ?)
+2026-02-20 15:04:00,178 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [Ayarra Barbero]
+2026-02-20 15:04:00,178 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [mateoayarrabarbero@gmail.com]
+2026-02-20 15:04:00,179 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:DATE) <- [2003-04-02]
+2026-02-20 15:04:00,179 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (4:VARCHAR) <- [Mateo]
+2026-02-20 15:04:00,213 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        perfil
+        (password_hash, username, usuario) 
+    [34mvalues[0m
+        (?, ?, ?)
+2026-02-20 15:04:00,214 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [password]
+2026-02-20 15:04:00,214 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [mateomate1]
+2026-02-20 15:04:00,214 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:SMALLINT) <- [2]
+2026-02-23 16:13:04,744 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-23 16:13:04,774 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-23 16:13:05,019 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-23 16:13:05,066 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-23 16:13:06,214 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-23 16:13:07,214 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-23 16:13:07,292 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-23 16:13:27,688 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-23 16:13:27,711 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-23 16:13:27,859 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaCredenciales]
+2026-02-23 16:13:27,895 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-23 16:13:28,549 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/credenciales]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: credenciales/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-23 16:13:29,353 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-23 16:13:29,394 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada

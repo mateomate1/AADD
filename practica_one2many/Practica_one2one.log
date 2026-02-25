@@ -1,0 +1,350 @@
+2026-02-24 12:30:33,251 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-24 12:30:33,275 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-24 12:33:14,227 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-24 12:33:14,252 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-24 12:33:14,409 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaElcorteingles]
+2026-02-24 12:33:14,449 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-24 12:33:15,166 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-24 12:33:16,034 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24 12:34:57,658 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-24 12:34:57,685 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-24 12:34:57,835 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaElcorteingles]
+2026-02-24 12:34:57,870 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-24 12:34:58,529 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-24 12:34:59,315 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24 12:38:50,242 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-24 12:38:50,266 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-24 12:38:50,426 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaElcorteingles]
+2026-02-24 12:38:50,468 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-24 12:38:51,132 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-24 12:38:51,951 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24 12:38:51,990 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 12:38:52,055 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        cliente
+        (email, nombre) 
+    [34mvalues[0m
+        (?, ?)
+2026-02-24 12:38:52,058 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 12:38:52,058 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Juan]
+2026-02-24 16:14:07,659 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-24 16:14:07,684 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-24 16:14:07,837 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaElcorteingles]
+2026-02-24 16:14:07,877 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-24 16:14:08,591 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-24 16:14:09,489 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24 16:14:09,554 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:14:09,593 [main] INFO  com.example.service.ClienteService       - Comenzando transaccion
+2026-02-24 16:14:09,593 [main] INFO  com.example.service.ClienteService       - Cliente creado con exito
+2026-02-24 16:14:09,596 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        cliente
+        (email, nombre) 
+    [34mvalues[0m
+        (?, ?)
+2026-02-24 16:14:09,609 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:14:09,611 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Juan]
+2026-02-24 16:14:09,622 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1062, SQLState: 23000
+2026-02-24 16:14:09,622 [main] WARN  org.hibernate.orm.jdbc.error             - Duplicate entry 'juan@gmail.com' for key 'cliente.email'
+2026-02-24 16:14:09,626 [main] ERROR com.example.service.ClienteService       - Error: could not execute statement [Duplicate entry 'juan@gmail.com' for key 'cliente.email'] [insert into cliente (email,nombre) values (?,?)]
+2026-02-24 16:14:09,633 [main] INFO  com.example.service.ClienteService       - Gestor de entidades cerrado
+2026-02-24 16:14:09,633 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:14:09,929 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-24 16:14:09,939 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:14:09,964 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    [34mfrom[0m
+        pedido p1_0 
+    [34mwhere[0m
+        p1_0.cliente_id=?
+2026-02-24 16:14:09,964 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:14:09,971 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:14:09,971 [main] INFO  com.example.service.PedidoService        - Comienza la transaccion
+2026-02-24 16:14:09,974 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        pedido
+        (cliente_id, fecha, importe) 
+    [34mvalues[0m
+        (?, ?, ?)
+2026-02-24 16:14:09,974 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:14:09,974 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-02-24]
+2026-02-24 16:14:09,974 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:NUMERIC) <- [12.5]
+2026-02-24 16:14:09,992 [main] INFO  com.example.service.PedidoService        - Pedido añadido a la uidad de persistencia
+2026-02-24 16:14:10,002 [main] INFO  com.example.service.PedidoService        - Pedido creado correctamente
+2026-02-24 16:25:48,470 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-24 16:25:48,496 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-24 16:25:48,651 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaElcorteingles]
+2026-02-24 16:25:48,690 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-24 16:25:49,362 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-24 16:25:50,169 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24 16:25:50,208 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:25:50,249 [main] INFO  com.example.service.ClienteService       - Comenzando transaccion
+2026-02-24 16:25:50,249 [main] INFO  com.example.service.ClienteService       - Cliente creado con exito
+2026-02-24 16:25:50,267 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        cliente
+        (email, nombre) 
+    [34mvalues[0m
+        (?, ?)
+2026-02-24 16:25:50,270 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:25:50,270 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Juan]
+2026-02-24 16:25:50,278 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1062, SQLState: 23000
+2026-02-24 16:25:50,279 [main] WARN  org.hibernate.orm.jdbc.error             - Duplicate entry 'juan@gmail.com' for key 'cliente.email'
+2026-02-24 16:25:50,282 [main] ERROR com.example.service.ClienteService       - Error: could not execute statement [Duplicate entry 'juan@gmail.com' for key 'cliente.email'] [insert into cliente (email,nombre) values (?,?)]
+2026-02-24 16:25:50,285 [main] INFO  com.example.service.ClienteService       - Gestor de entidades cerrado
+2026-02-24 16:25:50,286 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:25:50,558 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-24 16:25:50,559 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:25:50,582 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    [34mfrom[0m
+        pedido p1_0 
+    [34mwhere[0m
+        p1_0.cliente_id=?
+2026-02-24 16:25:50,582 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:25:50,589 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:25:50,591 [main] INFO  com.example.service.PedidoService        - Comienza la transaccion
+2026-02-24 16:25:50,591 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        pedido
+        (cliente_id, fecha, importe) 
+    [34mvalues[0m
+        (?, ?, ?)
+2026-02-24 16:25:50,592 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:25:50,593 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-02-24]
+2026-02-24 16:25:50,593 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:NUMERIC) <- [12.5]
+2026-02-24 16:25:50,607 [main] INFO  com.example.service.PedidoService        - Pedido añadido a la uidad de persistencia
+2026-02-24 16:25:50,613 [main] INFO  com.example.service.PedidoService        - Pedido creado correctamente
+2026-02-24 16:25:50,613 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:25:50,617 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-24 16:25:50,617 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:25:50,619 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    [34mfrom[0m
+        pedido p1_0 
+    [34mwhere[0m
+        p1_0.cliente_id=?
+2026-02-24 16:25:50,619 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:25:50,621 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:25:50,622 [main] INFO  com.example.service.ClienteService       - Empezando transaccion
+2026-02-24 16:25:50,623 [main] ERROR com.example.service.ClienteService       - Error eliminando cliente: Given entity is not associated with the persistence context
+2026-02-24 16:25:50,624 [main] INFO  com.example.service.ClienteService       - Gestor de entidades cerrado
+2026-02-24 16:32:33,465 [main] DEBUG com.example.util.JPAUtil                 - Creando pool de conexiones...
+2026-02-24 16:32:33,488 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-24 16:32:33,650 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaElcorteingles]
+2026-02-24 16:32:33,686 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-24 16:32:34,376 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/elcorteingles]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-24 16:32:35,208 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24 16:32:35,251 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:32:35,286 [main] INFO  com.example.service.ClienteService       - Comenzando transaccion
+2026-02-24 16:32:35,286 [main] INFO  com.example.service.ClienteService       - Cliente creado con exito
+2026-02-24 16:32:35,304 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        cliente
+        (email, nombre) 
+    [34mvalues[0m
+        (?, ?)
+2026-02-24 16:32:35,306 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:32:35,307 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [Juan]
+2026-02-24 16:32:35,314 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1062, SQLState: 23000
+2026-02-24 16:32:35,315 [main] WARN  org.hibernate.orm.jdbc.error             - Duplicate entry 'juan@gmail.com' for key 'cliente.email'
+2026-02-24 16:32:35,318 [main] ERROR com.example.service.ClienteService       - Error: could not execute statement [Duplicate entry 'juan@gmail.com' for key 'cliente.email'] [insert into cliente (email,nombre) values (?,?)]
+2026-02-24 16:32:35,322 [main] INFO  com.example.service.ClienteService       - Gestor de entidades cerrado
+2026-02-24 16:32:35,323 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:32:35,595 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-24 16:32:35,595 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:32:35,614 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    [34mfrom[0m
+        pedido p1_0 
+    [34mwhere[0m
+        p1_0.cliente_id=?
+2026-02-24 16:32:35,615 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:32:35,624 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:32:35,626 [main] INFO  com.example.service.PedidoService        - Comienza la transaccion
+2026-02-24 16:32:35,626 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        pedido
+        (cliente_id, fecha, importe) 
+    [34mvalues[0m
+        (?, ?, ?)
+2026-02-24 16:32:35,627 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:32:35,627 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:DATE) <- [2026-02-24]
+2026-02-24 16:32:35,627 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (3:NUMERIC) <- [12.5]
+2026-02-24 16:32:35,643 [main] INFO  com.example.service.PedidoService        - Pedido añadido a la uidad de persistencia
+2026-02-24 16:32:35,649 [main] INFO  com.example.service.PedidoService        - Pedido creado correctamente
+2026-02-24 16:32:35,649 [main] DEBUG com.example.util.JPAUtil                 - Nueva conexión del pool solicitada
+2026-02-24 16:32:35,650 [main] INFO  com.example.service.ClienteService       - Empezando transaccion
+2026-02-24 16:32:35,655 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-24 16:32:35,655 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [juan@gmail.com]
+2026-02-24 16:32:35,656 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        p1_0.cliente_id,
+        p1_0.id,
+        p1_0.fecha,
+        p1_0.importe 
+    [34mfrom[0m
+        pedido p1_0 
+    [34mwhere[0m
+        p1_0.cliente_id=?
+2026-02-24 16:32:35,656 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:32:35,663 [main] INFO  com.example.service.ClienteService       - Eliminando cliente del contexto de persistencia
+2026-02-24 16:32:35,668 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdelete[0m 
+    [34mfrom[0m
+        pedido 
+    [34mwhere[0m
+        id=?
+2026-02-24 16:32:35,668 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [4]
+2026-02-24 16:32:35,673 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdelete[0m 
+    [34mfrom[0m
+        pedido 
+    [34mwhere[0m
+        id=?
+2026-02-24 16:32:35,673 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [5]
+2026-02-24 16:32:35,674 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdelete[0m 
+    [34mfrom[0m
+        pedido 
+    [34mwhere[0m
+        id=?
+2026-02-24 16:32:35,674 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [6]
+2026-02-24 16:32:35,676 [main] DEBUG org.hibernate.SQL                        - 
+    [34mdelete[0m 
+    [34mfrom[0m
+        cliente 
+    [34mwhere[0m
+        id=?
+2026-02-24 16:32:35,676 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:SMALLINT) <- [2]
+2026-02-24 16:32:35,682 [main] INFO  com.example.service.ClienteService       - Cliente eliminado de la base de datos
+2026-02-24 16:32:35,682 [main] INFO  com.example.service.ClienteService       - Gestor de entidades cerrado

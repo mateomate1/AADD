@@ -4,7 +4,7 @@
 	xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
 	version="3.2">
 
-	<persistence-unit name="UnidadPersistencia" transaction-type="RESOURCE_LOCAL">
+	<persistence-unit name="PersistenciaCredenciales" transaction-type="RESOURCE_LOCAL">
 
 		<!-- En JPA solo hay dos valores válidos:
 					RESOURCE_LOCAL:  Nuestra aplicación gestiona las transacciones (mediante EntityTransaction)
@@ -13,8 +13,8 @@
 
 		<!-- Aquí debemos indicar las clases a persistir que dispondrán de las correspondientes
 		anotiaciones JPA -->
-		<class>com.example.model.Clase</class>
-
+		<class>com.example.model.Usuario</class>
+		<class>com.example.model.Perfil</class>
 
 		<properties>
 
@@ -42,7 +42,7 @@
 
 			<!-- El aislamiento lo decide el SGBD o el pool, JPA solo gestiona transacciones lógicas
 			<property name="hibernate.hikari.transactionIsolation" value="TRANSACTION_REPEATABLE_READ"/>
-			   Nivel de aislamiento considerado para las transacciones:
+			    Nivel de aislamiento considerado para las transacciones:
     			1: TRANSACTION_READ_UNCOMMITTED
     			2: TRANSACTION_READ_COMMITTED (valor predeterminado en MySQL)
 	    		4: TRANSACTION_REPEATABLE_READ (nivel predeterminado de MySQL InnoDB)
@@ -83,10 +83,10 @@
 					<property name="jakarta.persistence.jdbc.url" value="jdbc:h2:mem:instituto"/>
 			-->
 			<property name="hibernate.hikari.jdbcUrl"
-				value="jdbc:h2:./data/instituto;AUTO_SERVER=TRUE" />
-			<property name="hibernate.hikari.username" value="sa" /> <!-- System Administrator,
+				value="jdbc:mysql://localhost:3306/biblioteca_city"/>
+			<property name="hibernate.hikari.username" value="root" /> <!-- System Administrator,
 			usuario por defecto de H2 -->
-			<property name="hibernate.hikari.password" value="" /> <!-- Password vacío = práctica
+			<property name="hibernate.hikari.password" value="root" /> <!-- Password vacío = práctica
 			común para bases de desarrollo. Nunca PRODUCCIÓN-->
 
 			<!-- Con hibernate.hbm2ddl.auto = update: Se actualiza automáticamente el esquema de la
@@ -104,7 +104,7 @@
 
                 📌 En producción: Hibernate NO debe modificar el esquema. Se usan: validate y none
             -->
-			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.hbm2ddl.auto" value="validate" />
 
 		</properties>
 
