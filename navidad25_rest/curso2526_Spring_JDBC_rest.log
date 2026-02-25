@@ -353,3 +353,255 @@ Consider the following:
         cpn1_0.id_nino=?
 2026-02-16 12:22:37,060 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
 2026-02-16 12:22:37,065 [http-nio-8080-exec-1] DEBUG e.c.navidad25_rest.controller.NinoControler - Peticion GET /api/v1/ninos - Recuperar todos los ninos [6]
+2026-02-18 09:21:28,940 [main] INFO  e.c.navidad25_rest.Navidad25RestApplication - Starting Navidad25RestApplication using Java 21.0.9 with PID 10180 (C:\Users\Alumno\Desktop\DAM 2.2\AADD\navidad25_rest\target\classes started by Alumno in C:\Users\Alumno\Desktop\DAM 2.2\AADD\navidad25_rest)
+2026-02-18 09:21:28,947 [main] DEBUG e.c.navidad25_rest.Navidad25RestApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-18 09:21:28,948 [main] INFO  e.c.navidad25_rest.Navidad25RestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-18 09:21:29,871 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-18 09:21:29,958 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2026-02-18 09:21:30,572 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-18 09:21:30,590 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-18 09:21:30,593 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-18 09:21:30,594 [main] INFO  org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-18 09:21:30,749 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1724 ms
+2026-02-18 09:21:30,979 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-18 09:21:31,090 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-18 09:21:31,730 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-18 09:21:31,782 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-18 09:21:32,941 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 0, SQLState: 08000
+2026-02-18 09:21:32,941 [main] WARN  org.hibernate.orm.jdbc.error             - Socket fail to connect to localhost:3307. Connection refused: getsockopt
+2026-02-18 09:21:32,943 [main] WARN  org.hibernate.orm.jdbc                   - HHH100046: Could not obtain connection to query JDBC database metadata
+org.hibernate.exception.JDBCConnectionException: Unable to obtain isolated JDBC connection [Socket fail to connect to localhost:3307. Connection refused: getsockopt] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:51)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at es.ciudadescolar.navidad25_rest.Navidad25RestApplication.main(Navidad25RestApplication.java:10)
+Caused by: java.sql.SQLNonTransientConnectionException: Socket fail to connect to localhost:3307. Connection refused: getsockopt
+	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:131)
+	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:152)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:75)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:29)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	... 37 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:118)
+	... 51 common frames omitted
+2026-02-18 09:21:32,954 [main] ERROR o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-02-18 09:21:32,955 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-02-18 09:21:32,959 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-18 09:21:32,970 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-18 09:21:32,987 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:976)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at es.ciudadescolar.navidad25_rest.Navidad25RestApplication.main(Navidad25RestApplication.java:10)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:273)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:190)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:86)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:200)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:452)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	... 31 common frames omitted
+2026-02-18 09:22:20,960 [main] INFO  e.c.navidad25_rest.Navidad25RestApplication - Starting Navidad25RestApplication using Java 21.0.9 with PID 3004 (C:\Users\Alumno\Desktop\DAM 2.2\AADD\navidad25_rest\target\classes started by Alumno in C:\Users\Alumno\Desktop\DAM 2.2\AADD\navidad25_rest)
+2026-02-18 09:22:20,964 [main] DEBUG e.c.navidad25_rest.Navidad25RestApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-18 09:22:20,966 [main] INFO  e.c.navidad25_rest.Navidad25RestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-18 09:22:21,570 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-18 09:22:21,651 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2026-02-18 09:22:22,085 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-18 09:22:22,100 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-18 09:22:22,104 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-18 09:22:22,105 [main] INFO  org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-18 09:22:22,182 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1162 ms
+2026-02-18 09:22:22,388 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-18 09:22:22,437 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-18 09:22:22,863 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-18 09:22:22,900 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Starting...
+2026-02-18 09:22:23,031 [main] INFO  com.zaxxer.hikari.pool.HikariPool        - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@295d54d6
+2026-02-18 09:22:23,033 [main] INFO  com.zaxxer.hikari.HikariDataSource       - HikariPool-1 - Start completed.
+2026-02-18 09:22:23,105 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mariadb://localhost:3307/navidad25?user=root]
+	Database driver: MariaDB Connector/J
+	Database dialect: MariaDBDialect
+	Database version: 12.1.2
+	Default catalog/schema: navidad25/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-18 09:22:23,941 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 09:22:23,947 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-18 09:22:24,039 [main] INFO  o.s.d.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-18 09:22:24,792 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-18 09:22:25,087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-18 09:22:25,106 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-18 09:22:25,112 [main] INFO  e.c.navidad25_rest.Navidad25RestApplication - Started Navidad25RestApplication in 4.504 seconds (process running for 5.042)
+2026-02-18 09:24:05,851 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-18 09:24:05,852 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-18 09:24:05,854 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-18 09:24:05,946 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        n1_0.id_nino,
+        n1_0.comportamiento,
+        n1_0.nombre 
+    from
+        ninos n1_0
+2026-02-18 09:24:06,030 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-18 09:24:06,031 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [6]
+2026-02-18 09:24:06,040 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-18 09:24:06,041 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [5]
+2026-02-18 09:24:06,042 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-18 09:24:06,043 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [4]
+2026-02-18 09:24:06,044 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-18 09:24:06,045 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [3]
+2026-02-18 09:24:06,046 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-18 09:24:06,047 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [2]
+2026-02-18 09:24:06,048 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL                        - 
+    select
+        cpn1_0.id_nino,
+        cpn1_0.id_carta,
+        cpn1_0.contenido,
+        cpn1_0.fecha 
+    from
+        cartas cpn1_0 
+    where
+        cpn1_0.id_nino=?
+2026-02-18 09:24:06,049 [http-nio-8080-exec-1] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:BIGINT) <- [1]
+2026-02-18 09:24:06,053 [http-nio-8080-exec-1] DEBUG e.c.navidad25_rest.controller.NinoControler - Peticion GET /api/v1/ninos - Recuperar todos los ninos [6]
